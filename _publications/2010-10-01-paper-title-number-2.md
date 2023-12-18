@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Abstract.'
 date: 2023-06-16
-venue: 'e-Energy '23: Proceedings of the 14th ACM International Conference on Future Energy Systems'
+venue: "e-Energy '23: Proceedings of the 14th ACM International Conference on Future Energy Systems"
 paperurl: 'https://doi.org/10.1145/3575813.3595198'
 citation: 'Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas. (2023). &quot;Appliance Detection Using Very Low-Frequency Smart Meter Time Series.&quot; <i>ACM International Conference on Future Energy Systems (e-Energy)</i>. 1(2).'
 ---

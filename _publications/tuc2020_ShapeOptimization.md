@@ -26,4 +26,4 @@ This was particularly useful to apply an optimization process on the parameters 
 
 [Full text available here](https://research.bangor.ac.uk/portal/files/36456769/Proceedings_TUC_2020_v1.0.pdf#page=99)
 
-Recommended citation: Florent Taccone, Cédric Goeury, Fabrice Zaoui, and Adrien Petralia. (2009). "Pumping station design based on shape optimization process." <i>Proceedings of the 27th TELEMAC-MASCARET User Conference</i>.
+

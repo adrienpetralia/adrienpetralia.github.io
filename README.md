@@ -10,3 +10,4 @@ Welcome to [Adrien Petralia's homepage](https://adrienpetralia.github.io/)!
 ## Credits
 
 - [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
+- [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io)

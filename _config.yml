@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Adrien Petralia"
   avatar           : "https://avatars.githubusercontent.com/u/25076252?s=400&u=9bb57ca063f4424a1d7728b6e27a8ae3fa7ce8f0&v=4"
-  bio              : "Second-year PhD student at Université Paris Cité (LIPADE) and EDF R&D."
+  bio              : "Third-year Computer Science Ph.D. candidate"
   location         : "Paris, France"
   employer         : 
   pubmed           : 
@@ -100,16 +100,16 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/adrien-petralia/"
+  linkedin         : "adrien-petralia"
   orcid            : "https://orcid.org/0000-0003-2987-9111"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :

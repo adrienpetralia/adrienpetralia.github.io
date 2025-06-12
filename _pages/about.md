@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Computer Science Ph.D. candidate at Université Paris Cité and EDF R&D, working in Artificial Intelligence for energy data series analytics (machine learning/deep learning).
-I'm part of the [LIPADE](http://lipade.mi.parisdescartes.fr/) laboratory and the [diNo team](http://dino.mi.parisdescartes.fr/), where I'm supervised by Prof. [Themis Palpanas](https://helios2.mi.parisdescartes.fr/~themisp/) (Université Paris Cité) and Philippe Charpentier (EDF R&D).
+I am a Research Scientist at EDF R&D, specializing in data mining and deep learning for electricity consumption time series analytics. My research focuses on representation learning with large-scale Transformer models, time series classification and regression, and Non-Intrusive Load Monitoring (NILM) applications.
 
-My research interest focuses on proposing new solution for large scale energy data series analytics (data mining) and include the following areas: pattern recognition, large scale data training, time series classification/regression/forecasting and energy disaggregation (Non-Intrusive Load Monitoring).
+I completed my Ph.D. in Artificial Intelligence at Université Paris Cité and EDF R&D, under the supervision of Prof. [Themis Palpanas](https://helios2.mi.parisdescartes.fr/~themisp/).

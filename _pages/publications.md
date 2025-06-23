@@ -26,11 +26,11 @@ author_profile: true
   </li>
 
   <li>
-    Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas. <b> Few Labels are all you need: A Weakly Supervised Framework for Appliance Localization in Smart-Meter Series. </b> In IEEE International Conference on Data Engineering (ICDE), Hong Kong, China, May 2025. [<a href="https://arxiv.org/pdf/2506.05895">pdf</a>]
+    Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas. <b> Few Labels are all you need: A Weakly Supervised Framework for Appliance Localization in Smart-Meter Series. </b> In IEEE International Conference on Data Engineering (ICDE), Hong Kong SAR, China, May 2025. [<a href="https://arxiv.org/pdf/2506.05895">pdf</a>]
   </li>
 
   <li>
-    Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas. <b> DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series. </b> In IEEE International Conference on Data Engineering (ICDE), Hong Kong, China, 2025. [<a href="https://arxiv.org/pdf/2506.05912">pdf</a>]
+    Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas. <b> DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series. </b> In IEEE International Conference on Data Engineering (ICDE), Hong Kong SAR, China, 2025. [<a href="https://arxiv.org/pdf/2506.05912">pdf</a>]
   </li>
 
   <li>
@@ -38,7 +38,7 @@ author_profile: true
   </li>
 
   <li>
-    Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas. <b> Appliance Detection Using Very Low-Frequency Smart Meter Time Series. </b> ACM International Conference on Future Energy Systems (e-Energy), Orlando, FL (USA), June 2023. [<a href="https://arxiv.org/pdf/2305.10352">pdf</a>]
+    Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas. <b> Appliance Detection Using Very Low-Frequency Smart Meter Time Series. </b> ACM International Conference on Future Energy Systems (e-Energy), Orlando, FL, USA, June 2023. [<a href="https://arxiv.org/pdf/2305.10352">pdf</a>]
   </li>
 
   <li>

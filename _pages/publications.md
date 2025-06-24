@@ -42,7 +42,7 @@ author_profile: true
   </li>
 
   <li>
-    Florent Taccone, Cédric Goeury, Fabrice Zaoui, Adrien Petralia. <b> Pumping station design based on shape optimization process. </b> Proceedings of the TELEMAC-MASCARET User Conference, Online, 2020. [<a href="https://research.bangor.ac.uk/portal/files/36456769/Proceedings_TUC_2020_v1.0.pdf#page=99">pdf</a>]
+    Florent Taccone, Cédric Goeury, Fabrice Zaoui, Adrien Petralia. <b> Pumping station design based on shape optimization process. </b> Proceedings of the TELEMAC-MASCARET User Conference, Online, October 2020. [<a href="https://research.bangor.ac.uk/portal/files/36456769/Proceedings_TUC_2020_v1.0.pdf#page=99">pdf</a>]
   </li>
 
 </ol>

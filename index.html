@@ -4,49 +4,257 @@ layout: none
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adrien Petralia</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrien Petralia - AI Researcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: translateY(-3px);
+        }
+        .bg-pattern {
+            background-image: radial-gradient(rgba(59, 130, 246, 0.1) 2px, transparent 2px);
+            background-size: 40px 40px;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
-  <header class="bg-white">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <span class="ml-3 text-xl">Adrien Petralia</span>
-      </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a href="/about" class="mr-5 hover:text-gray-900">About</a>
-        <a href="/publications" class="mr-5 hover:text-gray-900">Publications</a>
-        <a href="/contact" class="mr-5 hover:text-gray-900">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="text-gray-600 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hello, I'm Adrien.
-        </h1>
-        <p class="mb-8 leading-relaxed">I'm an AI researcher at EDF R&D. I enjoy building intelligent systems and exploring new technology.</p>
-        <div class="flex justify-center">
-          <a href="/assets/Adrien_Petralia_CV.pdf" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Download CV</a>
-          <a href="mailto:adrien.petralia@gmail.com" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact</a>
+<body class="bg-gray-50 font-sans antialiased bg-pattern">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-bold gradient-text">Adrien Petralia</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="https://adrienpetralia.github.io/publications/" class="text-gray-700 hover:text-blue-600 transition">Publications</a>
+                    <a href="https://adrienpetralia.github.io/talks/" class="text-gray-700 hover:text-blue-600 transition">Talks</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-toggle" class="text-gray-700">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="profile" src="images/bio-photo.jpg">
-      </div>
-    </div>
-  </section>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
+                <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Publications</a>
+                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Talks</a>
+                <a href="https://adrienpetralia.github.io/sitemap/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Sitemap</a>
+            </div>
+        </div>
+    </nav>
 
-  <footer class="text-gray-600 body-font">
-    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <span class="ml-3 text-xl">Adrien Petralia</span>
-      </a>
-      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Adrien Petralia — All Rights Reserved</p>
+    <!-- Hero Section -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    <span class="gradient-text">Adrien Petralia</span>
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">PhD, AI Researcher @ EDF R&D</h2>
+                <p class="text-lg text-gray-600 mb-8">
+                    Specializing in data mining and deep learning for electricity consumption time series analytics.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="mailto:adrien.petralia@gmail.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition hover-scale">
+                        Contact Me
+                    </a>
+                    <a href="#about" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition hover-scale">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <img src="https://avatars.githubusercontent.com/u/25076252?s=400&u=9bb57ca063f4424a1d7728b6e27a8ae3fa7ce8f0&v=4" 
+                         alt="Adrien Petralia" 
+                         class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-xl border-4 border-white hover-scale">
+                    <div class="absolute -bottom-4 -right-4 bg-white p-2 rounded-full shadow-md">
+                        <span class="text-xs font-semibold bg-gradient-to-r from-blue-500 to-purple-500 text-white px-3 py-1 rounded-full">Paris, France</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
+
+    <!-- Social Links -->
+    <div class="bg-white py-8 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-4 md:gap-8">
+                <a href="https://www.researchgate.net/profile/Adrien-Petralia-2" class="flex items-center text-gray-700 hover:text-blue-600 transition hover-scale">
+                    <i class="fab fa-researchgate text-2xl mr-2"></i>
+                    <span>ResearchGate</span>
+                </a>
+                <a href="https://www.linkedin.com/in/adrien-petralia" class="flex items-center text-gray-700 hover:text-blue-600 transition hover-scale">
+                    <i class="fab fa-linkedin text-2xl mr-2"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/adrienpetralia" class="flex items-center text-gray-700 hover:text-blue-600 transition hover-scale">
+                    <i class="fab fa-github text-2xl mr-2"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://scholar.google.com/citations?user=-5WG3n0AAAAJ&hl=en" class="flex items-center text-gray-700 hover:text-blue-600 transition hover-scale">
+                    <i class="fas fa-graduation-cap text-2xl mr-2"></i>
+                    <span>Google Scholar</span>
+                </a>
+                <a href="https://orcid.org/0000-0003-2987-9111" class="flex items-center text-gray-700 hover:text-blue-600 transition hover-scale">
+                    <i class="fab fa-orcid text-2xl mr-2"></i>
+                    <span>ORCID</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Me</h2>
+            <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
+        </div>
+        
+        <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8">
+            <p class="text-lg text-gray-700 mb-6">
+                I am a Research Scientist at EDF R&D, specializing in data mining and deep learning for electricity consumption time series analytics. My research focuses on representation learning with large-scale Transformer models, time series classification and regression, and Non-Intrusive Load Monitoring (NILM) applications.
+            </p>
+            
+            <p class="text-lg text-gray-700 mb-6">
+                I completed my Ph.D. in Artificial Intelligence at Université Paris Cité and EDF R&D, under the supervision of Prof. <a href="https://helios2.mi.parisdescartes.fr/~themisp/" class="text-blue-600 hover:underline">Themis Palpanas</a>.
+            </p>
+            
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Research Interests</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Deep Learning</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Time Series Analysis</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Transformer Models</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">NILM Applications</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Data Mining</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="https://adrienpetralia.github.io/publications/" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition hover-scale">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-book-open text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Publications</h3>
+                    <p class="text-gray-600">Explore my research publications and academic work.</p>
+                </a>
+                
+                <a href="https://adrienpetralia.github.io/talks/" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition hover-scale">
+                    <div class="text-purple-600 mb-4">
+                        <i class="fas fa-comments text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Talks</h3>
+                    <p class="text-gray-600">View my conference presentations and invited talks.</p>
+                </a>
+                
+                <a href="https://adrienpetralia.github.io/sitemap/" class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition hover-scale">
+                    <div class="text-green-600 mb-4">
+                        <i class="fas fa-sitemap text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Sitemap</h3>
+                    <p class="text-gray-600">Navigate through all sections of my website.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Adrien Petralia</h3>
+                    <p class="text-gray-400">PhD, AI Researcher specializing in time series analytics and deep learning.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="https://adrienpetralia.github.io/publications/" class="text-gray-400 hover:text-white transition">Publications</a></li>
+                        <li><a href="https://adrienpetralia.github.io/talks/" class="text-gray-400 hover:text-white transition">Talks</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/adrienpetralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/adrien-petralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=-5WG3n0AAAAJ&hl=en" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">
+                        <a href="mailto:adrien.petralia@gmail.com" class="hover:text-white transition">adrien.petralia@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 Adrien Petralia. Powered by <a href="http://jekyllrb.com/" class="hover:text-white transition">Jekyll</a> & <a href="https://github.com/academicpages/academicpages.github.io" class="hover:text-white transition">AcademicPages</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>

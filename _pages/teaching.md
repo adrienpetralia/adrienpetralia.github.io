@@ -41,7 +41,8 @@ permalink: /teaching/
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="https://adrienpetralia.github.io/#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                     <a href="https://adrienpetralia.github.io/publications/" class="text-gray-700 hover:text-blue-600 transition">Publications</a>
-                    <a href="https://adrienpetralia.github.io/talks/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Talks</a>
+                    <a href="https://adrienpetralia.github.io/talks/" class="text-gray-700 hover:text-blue-600 transition">Talks</a>
+                    <a href="https://adrienpetralia.github.io/teaching/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Service</a>
                 </div>
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700">
@@ -57,8 +58,8 @@ permalink: /teaching/
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="https://adrienpetralia.github.io/#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Publications</a>
-                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Talks</a>
-                <a href="https://adrienpetralia.github.io/sitemap/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Sitemap</a>
+                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Talks</a>
+                <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Service</a>
             </div>
         </div>
     </nav>
@@ -74,39 +75,6 @@ permalink: /teaching/
                 </li>
                 <li>
                     "DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series" (ICDE, Hong Kong SAR, China, May 2025)
-                </li>
-            </ol>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2024</h2>
-            <ol class="list-decimal list-inside space-y-4 text-gray-700">
-                <li>
-                    "ADF & TransApp: A Transformer-Based Framework for Appliance Detection Using Smart Meter Consumption Series" (VLDB, Guangzhou, China, August 2024)
-                </li>
-                <li>
-                    "Time Series Analytics for Electricity Consumption Data" (VLDB PhD Workshop, Guangzhou, China, August 2024)
-                </li>
-                <li>
-                    "L'intelligence artificielle au service de la compréhension de la consommation d'électricité/How Can Artificial Intelligence Help Us Understand Electricity Consumption?" (Festival Double•Science, Paris, France, June 2024)
-                </li>
-                <li>
-                    "Time Series Classification for Electricity Consumption Analysis" (LIPADE Open Day, Université Paris Cité, Paris, France, June 2024)
-                </li>
-            </ol>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2023</h2>
-            <ol class="list-decimal list-inside space-y-4 text-gray-700">
-                <li>
-                    "Electricity Consumption Time Series Classification and Non-Intrusive Load Monitoring" (CentraleSupelec, Metz, France, November 2023)
-                </li>
-                <li>
-                    "Détection de présence d'appareils dans les courbes de consommation très basse fréquences/Appliance Detection Using Very Low-Frequency Time Series" (BDA, Montpellier, France, October 2023)
-                </li>
-                <li>
-                    "Appliance Detection Using Very Low-Frequency Time Series" (ACM e-Energy, Orlando, FL, USA, June 2023)
                 </li>
             </ol>
         </section>

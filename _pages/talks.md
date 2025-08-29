@@ -1,9 +1,3 @@
----
-layout: none
-title: "Talks"
-permalink: /talks/
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

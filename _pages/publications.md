@@ -91,6 +91,9 @@ permalink: /publications/
                     Adrien Petralia. <span class="font-semibold">Time Series Analytics for Electricity Consumption Data.</span> Very Large Data Bases (VLDB) PhD Workshop, Guangzhou, China, August 2024. <a href="https://hal.science/hal-04706310v1/file/Time%20Series%20Analytics%20for%20Electricity%20Consumption%20Data.pdf" class="text-blue-600 hover:underline">pdf</a>
                 </li>
                 <li>
+                    Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas. <span class="font-semibold">Appliance Detection Using Very Low-Frequency Smart Meter Time Series.</span> BDA 2023 - 39ème Conférence sur la Gestion de Données Principes Technologies et Applications. <a href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-04627853v1/file/actesBDA2023.pdf" class="text-blue-600 hover:underline">pdf</a>
+                </li>
+                <li>
                     Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas. <span class="font-semibold">Appliance Detection Using Very Low-Frequency Smart Meter Time Series.</span> ACM International Conference on Future Energy Systems (e-Energy), Orlando, FL, USA, June 2023. <a href="https://arxiv.org/pdf/2305.10352" class="text-blue-600 hover:underline">pdf</a>
                 </li>
                 <li>

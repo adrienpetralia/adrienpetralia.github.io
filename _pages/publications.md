@@ -42,6 +42,7 @@ permalink: /publications/
                     <a href="https://adrienpetralia.github.io/#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                     <a href="https://adrienpetralia.github.io/publications/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Publications</a>
                     <a href="https://adrienpetralia.github.io/talks/" class="text-gray-700 hover:text-blue-600 transition">Talks</a>
+                    <a href="https://adrienpetralia.github.io/teaching/" class="text-gray-700 hover:text-blue-600 transition">Service</a>
                 </div>
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700">
@@ -58,7 +59,7 @@ permalink: /publications/
                 <a href="https://adrienpetralia.github.io/#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Publications</a>
                 <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Talks</a>
-                <a href="https://adrienpetralia.github.io/sitemap/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Sitemap</a>
+                <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service</a>
             </div>
         </div>
     </nav>

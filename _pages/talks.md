@@ -79,6 +79,9 @@ permalink: /talks/
                 <li>
                     "DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series" (ICDE, Hong Kong SAR, China, May 2025)
                 </li>
+                <li>
+                    "Deep Learning for Electricity Consumption Time Series Analytics", PhD Defense (Université Paris Cité, Paris, France, May 2025)
+                </li>
             </ol>
         </section>
 

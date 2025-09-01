@@ -6,28 +6,20 @@ permalink: /talks/
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrien Petralia - Talks</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrien Petralia – Talks</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
-        .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .hover-scale {
-            transition: transform 0.3s ease;
-        }
-        .hover-scale:hover {
-            transform: translateY(-3px);
-        }
-        .bg-pattern {
-            background-image: radial-gradient(rgba(59, 130, 246, 0.1) 2px, transparent 2px);
-            background-size: 40px 40px;
-        }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .hover-scale { transition: transform 0.3s ease; }
+        .hover-scale:hover { transform: translateY(-3px); }
+        .bg-pattern { background-image: radial-gradient(rgba(59,130,246,0.08) 2px, transparent 2px); background-size: 40px 40px; }
+        /* Plain CSS so it works with Tailwind CDN */
+        .chip { display:inline-flex; align-items:center; border-radius:9999px; padding:0.125rem 0.625rem; font-size:0.75rem; line-height:1rem; font-weight:500; background-color:#f3f4f6; color:#374151; }
+        .btn { display:inline-flex; align-items:center; gap:0.5rem; padding:0.5rem 0.75rem; border-radius:0.5rem; background:#f3f4f6; color:#1f2937; font-weight:500; }
+        .btn:hover { background:#e5e7eb; }
     </style>
 </head>
 <body class="bg-gray-50 font-sans antialiased bg-pattern">
@@ -42,80 +34,183 @@ permalink: /talks/
                     <a href="https://adrienpetralia.github.io/#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                     <a href="https://adrienpetralia.github.io/publications/" class="text-gray-700 hover:text-blue-600 transition">Publications</a>
                     <a href="https://adrienpetralia.github.io/talks/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Talks</a>
-                    <a href="https://adrienpetralia.github.io/teaching/" class="text-gray-700 hover:text-blue-600 transition">Service</a>
+                    <a href="https://adrienpetralia.github.io/teaching/" class="text-gray-700 hover:text-blue-600 transition">Service & Teaching</a>
                 </div>
                 <div class="md:hidden flex items-center">
-                    <button id="menu-toggle" class="text-gray-700">
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    <button id="menu-toggle" class="text-gray-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
                 </div>
             </div>
         </div>
         <!-- Mobile menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg" role="region" aria-label="Mobile menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="https://adrienpetralia.github.io/#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Publications</a>
                 <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Talks</a>
-                <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service</a>
+                <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service & Teaching</a>
             </div>
         </div>
     </nav>
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">Talks and Presentations</h1>
+        <header class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Talks & Presentations</h1>
+            <p class="mt-3 text-gray-600">Conference talks, workshops, outreach, and defense.</p>
+        </header>
 
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2025</h2>
-            <ol class="list-decimal list-inside space-y-4 text-gray-700">
-                <li>
-                    "NILMFormer: A Sequence-To-Sequence Non-Stationarity Aware Transformer for Non-Intrusive Load Monitoring" (Toronto, ON, Canada, August 2025)
-                </li>
-                <li>
-                    "CamAL: A Weakly Supervised Framework for Appliance Localization in Smart-Meter Series" (ICDE, Hong Kong SAR, China, May 2025)
-                </li>
-                <li>
-                    "DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series" (ICDE, Hong Kong SAR, China, May 2025)
-                </li>
-                <li>
-                    "Deep Learning for Electricity Consumption Time Series Analytics", PhD Defense (Université Paris Cité, Paris, France, May 2025)
-                </li>
-            </ol>
+        <!-- 2025 -->
+        <section class="mb-12" aria-labelledby="y2025">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
+                <h2 id="y2025" class="text-2xl font-semibold text-gray-800">2025</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- KDD 2025 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Conference</span>
+                        <span class="chip">KDD</span>
+                        <span class="chip">Toronto, Canada</span>
+                        <span class="chip">Aug 2025</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">NILMFormer: A Sequence‑To‑Sequence Non‑Stationarity Aware Transformer for Non‑Intrusive Load Monitoring</h3>
+                </article>
+
+                <!-- ICDE 2025 CamAL -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Conference</span>
+                        <span class="chip">ICDE</span>
+                        <span class="chip">Hong Kong SAR, China</span>
+                        <span class="chip">May 2025</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">CamAL: A Weakly Supervised Framework for Appliance Localization in Smart‑Meter Series</h3>
+                </article>
+
+                <!-- ICDE 2025 DeviceScope -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Conference</span>
+                        <span class="chip">ICDE</span>
+                        <span class="chip">Hong Kong SAR, China</span>
+                        <span class="chip">May 2025</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series</h3>
+                </article>
+
+                <!-- PhD Defense 2025 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Defense</span>
+                        <span class="chip">Université Paris Cité</span>
+                        <span class="chip">Paris, France</span>
+                        <span class="chip">May 2025</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Deep Learning for Electricity Consumption Time Series Analytics</h3>
+                </article>
+            </div>
         </section>
 
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2024</h2>
-            <ol class="list-decimal list-inside space-y-4 text-gray-700">
-                <li>
-                    "ADF & TransApp: A Transformer-Based Framework for Appliance Detection Using Smart Meter Consumption Series" (VLDB, Guangzhou, China, August 2024)
-                </li>
-                <li>
-                    "Time Series Analytics for Electricity Consumption Data" (VLDB PhD Workshop, Guangzhou, China, August 2024)
-                </li>
-                <li>
-                    "L'intelligence artificielle au service de la compréhension de la consommation d'électricité/How Can Artificial Intelligence Help Us Understand Electricity Consumption?" (Festival Double•Science, Paris, France, June 2024)
-                </li>
-                <li>
-                    "Time Series Classification for Electricity Consumption Analysis" (LIPADE Open Day, Université Paris Cité, Paris, France, June 2024)
-                </li>
-            </ol>
+        <!-- 2024 -->
+        <section class="mb-12" aria-labelledby="y2024">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-calendar-days text-xl text-purple-600" aria-hidden="true"></i>
+                <h2 id="y2024" class="text-2xl font-semibold text-gray-800">2024</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- VLDB 2024 ADF & TransApp -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Conference</span>
+                        <span class="chip">VLDB</span>
+                        <span class="chip">Guangzhou, China</span>
+                        <span class="chip">Aug 2024</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">ADF & TransApp: A Transformer‑Based Framework for Appliance Detection Using Smart Meter Consumption Series</h3>
+                </article>
+
+                <!-- VLDB PhD Workshop 2024 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Workshop</span>
+                        <span class="chip">VLDB PhD Workshop</span>
+                        <span class="chip">Guangzhou, China</span>
+                        <span class="chip">Aug 2024</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Time Series Analytics for Electricity Consumption Data</h3>
+                </article>
+
+                <!-- Double•Science 2024 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Festival</span>
+                        <span class="chip">Double•Science</span>
+                        <span class="chip">Paris, France</span>
+                        <span class="chip">Jun 2024</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">L'intelligence artificielle au service de la compréhension de la consommation d'électricité / How Can Artificial Intelligence Help Us Understand Electricity Consumption?</h3>
+                </article>
+
+                <!-- LIPADE Open Day 2024 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Open Day</span>
+                        <span class="chip">LIPADE – Université Paris Cité</span>
+                        <span class="chip">Paris, France</span>
+                        <span class="chip">Jun 2024</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Time Series Classification for Electricity Consumption Analysis</h3>
+                </article>
+            </div>
         </section>
 
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2023</h2>
-            <ol class="list-decimal list-inside space-y-4 text-gray-700">
-                <li>
-                    "Electricity Consumption Time Series Classification and Non-Intrusive Load Monitoring" (CentraleSupelec, Metz, France, November 2023)
-                </li>
-                <li>
-                    "Détection de présence d'appareils dans les courbes de consommation très basse fréquences/Appliance Detection Using Very Low-Frequency Time Series" (BDA, Montpellier, France, October 2023)
-                </li>
-                <li>
-                    "Appliance Detection Using Very Low-Frequency Time Series" (ACM e-Energy, Orlando, FL, USA, June 2023)
-                </li>
-            </ol>
+        <!-- 2023 -->
+        <section class="mb-12" aria-labelledby="y2023">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-calendar-days text-xl text-emerald-600" aria-hidden="true"></i>
+                <h2 id="y2023" class="text-2xl font-semibold text-gray-800">2023</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- CentraleSupélec 2023 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Seminar</span>
+                        <span class="chip">CentraleSupélec</span>
+                        <span class="chip">Metz, France</span>
+                        <span class="chip">Nov 2023</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Electricity Consumption Time Series Classification and Non‑Intrusive Load Monitoring</h3>
+                </article>
+
+                <!-- BDA 2023 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Conference</span>
+                        <span class="chip">BDA</span>
+                        <span class="chip">Montpellier, France</span>
+                        <span class="chip">Oct 2023</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Détection de présence d'appareils dans les courbes de consommation très basse fréquences / Appliance Detection Using Very Low‑Frequency Time Series</h3>
+                </article>
+
+                <!-- e-Energy 2023 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Conference</span>
+                        <span class="chip">ACM e‑Energy</span>
+                        <span class="chip">Orlando, FL, USA</span>
+                        <span class="chip">Jun 2023</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900">Appliance Detection Using Very Low‑Frequency Time Series</h3>
+                </article>
+            </div>
         </section>
     </main>
 
@@ -136,9 +231,7 @@ permalink: /talks/
                     </ul>
                 </div>
             </div>
-            <div class="mt-8 text-center text-gray-500">
-                &copy; {{ site.time | date: '%Y' }} Adrien Petralia
-            </div>
+            <div class="mt-8 text-center text-gray-500">&copy; {{ site.time | date: '%Y' }} Adrien Petralia</div>
         </div>
     </footer>
 
@@ -146,9 +239,9 @@ permalink: /talks/
         const menuToggle = document.getElementById('menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
         menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+            const isHidden = mobileMenu.classList.toggle('hidden');
+            menuToggle.setAttribute('aria-expanded', String(!isHidden));
         });
     </script>
 </body>
 </html>
-

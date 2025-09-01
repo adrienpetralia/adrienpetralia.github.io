@@ -59,27 +59,6 @@ permalink: /teaching/
             <p class="mt-3 text-gray-600">Academic service and classroom activities.</p>
         </header>
 
-        <!-- Teaching -->
-        <section aria-labelledby="teaching" class="mb-12">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-chalkboard-user text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="teaching" class="text-2xl font-semibold text-gray-800">Teaching</h2>
-            </div>
-
-            <div class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                    <div>
-                        <h3 class="font-medium text-gray-900">Programming Project Group Supervision</h3>
-                        <p class="text-gray-600">Université Paris Cité — BSc Mathematics & Computer Science</p>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span class="chip">2023</span>
-                        <span class="chip">2025</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Academic Service -->
         <section aria-labelledby="service" class="space-y-6">
             <div class="flex items-center gap-3">
@@ -108,11 +87,33 @@ permalink: /teaching/
                     Reviewer for International Conferences & Journals
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
-                    <li>Information Systems <span class="chip ml-2">2023</span></li>
-                    <li>International Conference on Learning Representations (ICLR) <span class="chip ml-2">2024</span></li>
+                    <li>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) <span class="chip ml-2">2026</span>
                     <li>ACM Computing Surveys <span class="chip ml-2">2025</span></li>
-                    <li>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) <span class="chip ml-2">2026</span></li>
+                    </li>
+                    <li>International Conference on Learning Representations (ICLR) <span class="chip ml-2">2024</span></li>
+                    <li>Information Systems <span class="chip ml-2">2023</span></li>
                 </ul>
+            </div>
+        </section>
+        
+        <!-- Teaching -->
+        <section aria-labelledby="teaching" class="mb-12">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-chalkboard-user text-xl text-blue-600" aria-hidden="true"></i>
+                <h2 id="teaching" class="text-2xl font-semibold text-gray-800">Teaching</h2>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                    <div>
+                        <h3 class="font-medium text-gray-900">Programming Project Group Supervision</h3>
+                        <p class="text-gray-600">Université Paris Cité — BSc Mathematics & Computer Science</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="chip">2023</span>
+                        <span class="chip">2025</span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

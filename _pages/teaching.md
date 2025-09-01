@@ -60,7 +60,7 @@ permalink: /teaching/
         </header>
 
         <!-- Academic Service -->
-        <section aria-labelledby="service" class="space-y-6">
+        <section aria-labelledby="service" class="space-y-6 mb-12">
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-handshake-angle text-xl text-purple-600" aria-hidden="true"></i>
                 <h2 id="service" class="text-2xl font-semibold text-gray-800">Academic Service</h2>

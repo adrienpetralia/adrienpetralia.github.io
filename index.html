@@ -10,22 +10,14 @@ layout: none
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .hover-scale {
-            transition: transform 0.3s ease;
-        }
-        .hover-scale:hover {
-            transform: translateY(-3px);
-        }
-        .bg-pattern {
-            background-image: radial-gradient(rgba(59, 130, 246, 0.1) 2px, transparent 2px);
-            background-size: 40px 40px;
-        }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .hover-scale { transition: transform 0.3s ease; }
+        .hover-scale:hover { transform: translateY(-3px); }
+        .bg-pattern { background-image: radial-gradient(rgba(59, 130, 246, 0.1) 2px, transparent 2px); background-size: 40px 40px; }
+        /* Added reusable UI bits so it works with Tailwind CDN (no @apply) */
+        .chip { display:inline-flex; align-items:center; border-radius:9999px; padding:0.125rem 0.625rem; font-size:0.75rem; line-height:1rem; font-weight:500; background-color:#f3f4f6; color:#374151; }
+        .btn { display:inline-flex; align-items:center; gap:0.5rem; padding:0.5rem 0.75rem; border-radius:0.5rem; background:#f3f4f6; color:#1f2937; font-weight:500; }
+        .btn:hover { background:#e5e7eb; }
     </style>
 </head>
 <body class="bg-gray-50 font-sans antialiased bg-pattern">
@@ -152,44 +144,143 @@ layout: none
         </div>
     </section>
 
-    <!-- News -->
-    <section id="news" class="py-16">
+    <!-- News (improved) -->
+    <section id="news" class="py-16 bg-white/50">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold text-gray-800 mb-6">News</h2>
-        <ol class="space-y-3 list-none" reversed>
-          <li class="text-gray-700">
-            <time datetime="2025-08" class="font-semibold">Aug 2025:</time>
-            Presented the final paper from my PhD at KDD 2025 (Toronto, Canada).
+        <div class="flex items-center gap-3 mb-6">
+          <i class="fa-solid fa-bullhorn text-xl text-blue-600" aria-hidden="true"></i>
+          <h2 class="text-2xl font-semibold text-gray-800">News</h2>
+        </div>
+        <!-- Accessible timeline -->
+        <ol class="relative border-l border-gray-200 space-y-8">
+          <!-- 2025-08 KDD -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white ring-8 ring-white"><i class="fa-solid fa-star text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2025-08" class="chip">Aug 2025</time>
+                <span class="chip">KDD</span>
+                <span class="chip">Conference</span>
+                <span class="chip">Toronto</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Presented the final paper from my PhD at KDD 2025 (Toronto, Canada).</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <a class="btn" href="/talks/#y2025"><i class="fa-solid fa-microphone-lines"></i> Talks</a>
+                <a class="btn" href="/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
+              </div>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2025-05" class="font-semibold">May 2025:</time>
-            Presented two papers at ICDE 2025 (Hong Kong).
+          <!-- 2025-05 ICDE (two papers) -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-600 text-white ring-8 ring-white"><i class="fa-solid fa-circle-nodes text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2025-05" class="chip">May 2025</time>
+                <span class="chip">ICDE</span>
+                <span class="chip">2 papers</span>
+                <span class="chip">Hong Kong</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Presented two papers at ICDE 2025 (Hong Kong).</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <a class="btn" href="/talks/#y2025"><i class="fa-solid fa-microphone-lines"></i> Talks</a>
+                <a class="btn" href="/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
+              </div>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2025-05-07" class="font-semibold">May 7, 2025:</time>
-            Defended my PhD at Université Paris Cité (Paris).
+          <!-- 2025-05-07 Defense -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white ring-8 ring-white"><i class="fa-solid fa-graduation-cap text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2025-05-07" class="chip">May 7, 2025</time>
+                <span class="chip">Defense</span>
+                <span class="chip">Université Paris Cité</span>
+                <span class="chip">Paris</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Defended my PhD at Université Paris Cité (Paris).</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <a class="btn" href="/talks/#y2025"><i class="fa-solid fa-microphone-lines"></i> Talks</a>
+              </div>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2024-08" class="font-semibold">Aug 2024:</time>
-            Presented two papers at VLDB 2024 (Guangzhou, China).
+          <!-- 2024-08 VLDB (two papers) -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-white ring-8 ring-white"><i class="fa-solid fa-database text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2024-08" class="chip">Aug 2024</time>
+                <span class="chip">VLDB</span>
+                <span class="chip">2 papers</span>
+                <span class="chip">Guangzhou</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Presented two papers at VLDB 2024 (Guangzhou, China).</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <a class="btn" href="/talks/#y2024"><i class="fa-solid fa-microphone-lines"></i> Talks</a>
+                <a class="btn" href="/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
+              </div>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2024-06" class="font-semibold">Jun 2024:</time>
-            Attended the DiiP Interdisciplinary Summer School on Data Science (Paris).
+          <!-- 2024-06 DiiP Summer School -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-amber-600 text-white ring-8 ring-white"><i class="fa-solid fa-sun text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2024-06" class="chip">Jun 2024</time>
+                <span class="chip">Summer School</span>
+                <span class="chip">DiiP</span>
+                <span class="chip">Paris</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Attended the DiiP Interdisciplinary Summer School on Data Science (Paris).</h3>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2023-06" class="font-semibold">Jun 2023:</time>
-            Attended the ACDL Summer School on Data Science (Grosseto, Tuscany, Italy).
+          <!-- 2023-06 ACDL Summer School -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-rose-600 text-white ring-8 ring-white"><i class="fa-solid fa-seedling text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2023-06" class="chip">Jun 2023</time>
+                <span class="chip">Summer School</span>
+                <span class="chip">ACDL</span>
+                <span class="chip">Tuscany</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Attended the ACDL Summer School on Data Science (Grosseto, Tuscany, Italy).</h3>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2023-06" class="font-semibold">Jun 2023:</time>
-            Presented the first paper of my PhD at ACM e-Energy ’23 (Orlando, FL).
+          <!-- 2023-06 e-Energy -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-sky-600 text-white ring-8 ring-white"><i class="fa-solid fa-bolt text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2023-06" class="chip">Jun 2023</time>
+                <span class="chip">e‑Energy</span>
+                <span class="chip">Conference</span>
+                <span class="chip">Orlando</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Presented the first paper of my PhD at ACM e‑Energy ’23 (Orlando, FL).</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <a class="btn" href="/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
+              </div>
+            </article>
           </li>
-          <li class="text-gray-700">
-            <time datetime="2022-05" class="font-semibold">May 2022:</time>
-            Started my PhD at Université Paris Cité (LIPADE) and EDF R&D (EDF Research Lab Paris-Saclay).
+          <!-- 2022-05 PhD start -->
+          <li class="ml-6 relative">
+            <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-gray-600 text-white ring-8 ring-white"><i class="fa-solid fa-flag text-xs" aria-hidden="true"></i></span>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+              <div class="flex flex-wrap items-center gap-2 mb-2">
+                <time datetime="2022-05" class="chip">May 2022</time>
+                <span class="chip">PhD Start</span>
+                <span class="chip">LIPADE</span>
+                <span class="chip">EDF R&D</span>
+              </div>
+              <h3 class="font-medium text-gray-900">Started my PhD at Université Paris Cité (LIPADE) and EDF R&D (Paris‑Saclay).</h3>
+            </article>
           </li>
         </ol>
+        <!-- CTA row -->
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a class="btn" href="/talks/"><i class="fa-solid fa-microphone-lines"></i> View all talks</a>
+          <a class="btn" href="/publications/"><i class="fa-solid fa-book-open"></i> See publications</a>
+        </div>
       </div>
     </section>
 

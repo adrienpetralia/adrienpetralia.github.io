@@ -65,17 +65,54 @@ permalink: /teaching/
     </nav>
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">Service and Teaching</h1>
+</div>
+<div class="flex items-center gap-2">
+<span class="chip">2023</span>
+<span class="chip">2025</span>
+</div>
+</div>
+</div>
+</section>
 
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2025</h2>
-            <ol class="list-decimal list-inside space-y-4 text-gray-700">
-                <li>
-                    Review 1
-                </li>
-            </ol>
-        </section>
-    </main>
+
+<!-- Academic Service -->
+<section aria-labelledby="service" class="space-y-6">
+<div class="flex items-center gap-3">
+<i class="fa-solid fa-handshake-angle text-xl text-purple-600" aria-hidden="true"></i>
+<h2 id="service" class="text-2xl font-semibold text-gray-800">Academic Service</h2>
+</div>
+
+
+<!-- Program Committee -->
+<div class="bg-white rounded-2xl shadow-sm p-6">
+<h3 class="font-semibold text-gray-900 flex items-center gap-2">
+<i class="fa-solid fa-people-group text-gray-500" aria-hidden="true"></i>
+Program Committee Member
+</h3>
+<ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+<li>
+IEEE International Conference on Big Data (IEEE BigData) — Industrial Track
+<span class="chip ml-2">2025</span>
+</li>
+</ul>
+</div>
+
+
+<!-- Reviewer -->
+<div class="bg-white rounded-2xl shadow-sm p-6">
+<h3 class="font-semibold text-gray-900 flex items-center gap-2">
+<i class="fa-regular fa-pen-to-square text-gray-500" aria-hidden="true"></i>
+Reviewer for International Conferences & Journals
+</h3>
+<ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+<li>Information Systems <span class="chip ml-2">2023</span></li>
+<li>International Conference on Learning Representations (ICLR) <span class="chip ml-2">2024</span></li>
+<li>ACM Computing Surveys <span class="chip ml-2">2025</span></li>
+<li>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) <span class="chip ml-2">2026</span></li>
+</ul>
+</div>
+</section>
+</main>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">

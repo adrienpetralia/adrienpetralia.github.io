@@ -71,6 +71,9 @@ permalink: /talks/
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">2025</h2>
             <ol class="list-decimal list-inside space-y-4 text-gray-700">
                 <li>
+                    "NILMFormer: A Sequence-To-Sequence Non-Stationarity Aware Transformer for Non-Intrusive Load Monitoring" (Toronto, ON, Canada, August 2025)
+                </li>
+                <li>
                     "CamAL: A Weakly Supervised Framework for Appliance Localization in Smart-Meter Series" (ICDE, Hong Kong SAR, China, May 2025)
                 </li>
                 <li>

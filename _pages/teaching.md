@@ -70,11 +70,15 @@ permalink: /teaching/
             <div class="bg-white rounded-2xl shadow-sm p-6">
                 <h3 class="font-semibold text-gray-900 flex items-center gap-2">
                     <i class="fa-solid fa-people-group text-gray-500" aria-hidden="true"></i>
-                    Program Committee Member
+                    Program Committee Member (Reviewer)
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
                     <li>
-                        IEEE International Conference on Big Data (IEEE BigData) — Industrial Track
+                        ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) — Datasets and Benchmarks Track
+                        <span class="chip ml-2">2026</span>
+                    </li>
+                    <li>
+                        IEEE International Conference on Big Data (IEEE BigData 2025) — Industrial Track
                         <span class="chip ml-2">2025</span>
                     </li>
                 </ul>
@@ -84,10 +88,9 @@ permalink: /teaching/
             <div class="bg-white rounded-2xl shadow-sm p-6">
                 <h3 class="font-semibold text-gray-900 flex items-center gap-2">
                     <i class="fa-regular fa-pen-to-square text-gray-500" aria-hidden="true"></i>
-                    Reviewer for International Conferences & Journals
+                    Invited External Reviewer for International Conferences & Journals
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
-                    <li>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) <span class="chip ml-2">2026</span>
                     <li>ACM Computing Surveys <span class="chip ml-2">2025</span></li>
                     </li>
                     <li>International Conference on Learning Representations (ICLR) <span class="chip ml-2">2024</span></li>

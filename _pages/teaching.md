@@ -78,7 +78,7 @@ permalink: /teaching/
                         <span class="chip ml-2">2026</span>
                     </li>
                     <li>
-                        IEEE International Conference on Big Data (IEEE BigData 2025) — Industrial Track
+                        IEEE International Conference on Big Data (IEEE BigData 2025) — Industrial & Government Track
                         <span class="chip ml-2">2025</span>
                     </li>
                 </ul>

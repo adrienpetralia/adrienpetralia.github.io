@@ -92,7 +92,6 @@ permalink: /teaching/
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
                     <li>ACM Computing Surveys <span class="chip ml-2">2025</span></li>
-                    </li>
                     <li>International Conference on Learning Representations (ICLR) <span class="chip ml-2">2024</span></li>
                     <li>Information Systems <span class="chip ml-2">2023</span></li>
                 </ul>

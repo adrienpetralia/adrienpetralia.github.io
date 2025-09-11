@@ -74,7 +74,7 @@ permalink: /teaching/
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
                     <li>
-                        ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) — Datasets and Benchmarks Track
+                        ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) — Datasets & Benchmarks Track
                         <span class="chip ml-2">2026</span>
                     </li>
                     <li>

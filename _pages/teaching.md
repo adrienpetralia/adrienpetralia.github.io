@@ -91,9 +91,9 @@ permalink: /teaching/
                     Invited External Reviewer for International Conferences & Journals
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
+                    <li>Information Systems <span class="chip ml-2">2023 & 2025</span></li>
                     <li>ACM Computing Surveys <span class="chip ml-2">2025</span></li>
                     <li>International Conference on Learning Representations (ICLR) <span class="chip ml-2">2024</span></li>
-                    <li>Information Systems <span class="chip ml-2">2023</span></li>
                 </ul>
             </div>
         </section>
@@ -112,8 +112,7 @@ permalink: /teaching/
                         <p class="text-gray-600">Université Paris Cité — BSc Mathematics & Computer Science</p>
                     </div>
                     <div class="flex items-center gap-2">
-                        <span class="chip">2023</span>
-                        <span class="chip">2025</span>
+                        <span class="chip">2023 & 2025</span>
                     </div>
                 </div>
             </div>

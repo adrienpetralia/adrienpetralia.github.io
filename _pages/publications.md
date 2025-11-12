@@ -60,8 +60,40 @@ permalink: /publications/
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Publications</h1>
-            <p class="mt-3 text-gray-600">Selected peer‑reviewed work across journals, conferences, and patents.</p>
+            <p class="mt-3 text-gray-600">Peer‑reviewed work across journals, conferences, and patents.</p>
         </header>
+
+        <!-- Preprints -->
+        <section class="mb-12" aria-labelledby="preprints">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-newspaper text-xl text-blue-600" aria-hidden="true"></i>
+                <h2 id="preprints" class="text-2xl font-semibold text-gray-800">Preprints</h2>
+            </div>
+            <div class="space-y-4">
+                <!-- Preprints -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2024</span>
+                        <span class="chip">Journal</span>
+                        <span class="chip">PVLDB</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">
+                        Are Time-Indexed Foundation Models the Future of Time Series Imputation?
+                    </h3>
+                    <p class="text-gray-700 mt-1">
+                        Etienne Le Naour*, Tahar Nabil*, Adrien Petralia, Ghislain Agoua
+                    </p>
+                    <p class="text-gray-600 mt-1 italic">Arxiv Preprint</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://arxiv.org/pdf/2511.05980" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        
 
         <!-- Journals -->
         <section class="mb-12" aria-labelledby="journals">

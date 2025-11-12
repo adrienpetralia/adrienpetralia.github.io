@@ -73,9 +73,7 @@ permalink: /publications/
                 <!-- Preprints -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">2024</span>
-                        <span class="chip">Journal</span>
-                        <span class="chip">PVLDB</span>
+                        <span class="chip">2025</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">
                         Are Time-Indexed Foundation Models the Future of Time Series Imputation?

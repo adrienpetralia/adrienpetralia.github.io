@@ -66,7 +66,7 @@ permalink: /publications/
         <!-- Preprints -->
         <section class="mb-12" aria-labelledby="preprints">
             <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-newspaper text-xl text-blue-600" aria-hidden="true"></i>
+                <i class="fa-solid fa-file-lines text-xl text-blue-600"></i>
                 <h2 id="preprints" class="text-2xl font-semibold text-gray-800">Preprints</h2>
             </div>
             <div class="space-y-4">
@@ -81,7 +81,7 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">
                         Etienne Le Naour*, Tahar Nabil*, Adrien Petralia, Ghislain Agoua
                     </p>
-                    <p class="text-gray-600 mt-1 italic">Arxiv Preprint</p>
+                    <p class="text-gray-600 mt-1 italic">Arxiv Preprint - Accepted at NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models (BERT2S).</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2511.05980" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF

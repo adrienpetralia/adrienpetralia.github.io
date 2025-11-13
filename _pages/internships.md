@@ -64,11 +64,14 @@ permalink: /internships/
             <p class="mt-3 text-gray-600">Current internships position in my team at EDF Lab.</p>
         </header>
 
-        <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8">
-            <p class="text-lg text-gray-700 mb-6">
-            My research group, based at EDF Lab Paris-Saclay in Palaiseau, regularly recruits interns to conduct cutting-edge data mining and machine learning research applied to the energy domain. We invite motivated students to apply and join our team to work on advanced artificial intelligence techniques!
+        <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8 pb-10 mb-10">
+            <p class="text-lg text-gray-700">
+                My research group at EDF Lab Paris-Saclay (Palaiseau, France) regularly hosts internship projects at the interface between 
+                data mining, machine learning, and energy systems. We work on real-world challenges using advanced AI methods, and we welcome 
+                motivated students who want to contribute to impactful research on time series and energy data.
             </p>
         </div>
+
             
 
         <!-- 2026 -->

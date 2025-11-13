@@ -73,53 +73,105 @@ permalink: /internships/
 
         <!-- 2026 -->
 <section class="mb-12" aria-labelledby="y2026">
-    <div class="flex items-center gap-3 mb-4">
-        <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-        <h2 id="y2026" class="text-2xl font-semibold text-gray-800">2026</h2>
-    </div>
-
     <div class="space-y-4">
 
-        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-            <div class="flex flex-wrap items-center gap-2 mb-2">
-                <span class="chip">Time Series</span>
-                <span class="chip">Anomaly Detection</span>
-            </div>
-            <h3 class="font-semibold text-gray-900">
-                Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
-            </h3>
-        </article>
+    <!-- Anomaly detection -->
+    <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span class="chip">Time Series</span>
+            <span class="chip">Anomaly Detection</span>
+        </div>
+        <h3 class="font-semibold text-gray-900">
+            Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
+        </h3>
+        <p class="mt-2 text-gray-600 text-sm md:text-base">
+            Développement et évaluation de méthodes d’apprentissage automatique pour détecter automatiquement
+            les dérives lentes, anomalies et comportements atypiques dans les courbes de consommation énergétique,
+            à partir de grandes bases de séries temporelles issues de compteurs communicants.
+        </p>
+        <a
+            href="https://github.com/adrienpetralia/adrienpetralia.github.io/raw/master/_internships/EDF-RD-E7C-Stage-2026-DETECTION_ANOMALIES.pdf"
+            class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
+            target="_blank" rel="noopener"
+        >
+            View full internship description (PDF)
+            <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i>
+        </a>
+    </article>
 
-        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-            <div class="flex flex-wrap items-center gap-2 mb-2">
-                <span class="chip">Tabular Data</span>
-                <span class="chip">Gen AI</span>
-            </div>
-            <h3 class="font-semibold text-gray-900">
-                IA génératives adaptées aux données tabulaires pour la génération de données synthétiques
-            </h3>
-        </article>
+    <!-- GenAI tabular -->
+    <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span class="chip">Tabular Data</span>
+            <span class="chip">Gen AI</span>
+        </div>
+        <h3 class="font-semibold text-gray-900">
+            IA génératives adaptées aux données tabulaires pour la génération de données synthétiques
+        </h3>
+        <p class="mt-2 text-gray-600 text-sm md:text-base">
+            Conception et mise en œuvre de modèles d’IA générative pour produire des jeux de données tabulaires
+            synthétiques réalistes (profil clients, équipements, contextes), tout en respectant la confidentialité
+            et les contraintes statistiques des données utilisées dans le secteur de l’énergie.
+        </p>
+        <a
+            href="https://github.com/adrienpetralia/adrienpetralia.github.io/raw/master/_internships/EDF-RD-E7C-Stage-2026-IA_GENERATIVE_TABULAIRE.pdf"
+            class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
+            target="_blank" rel="noopener"
+        >
+            View full internship description (PDF)
+            <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i>
+        </a>
+    </article>
 
-        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-            <div class="flex flex-wrap items-center gap-2 mb-2">
-                <span class="chip">Time Series</span>
-                <span class="chip">Foundation Model</span>
-            </div>
-            <h3 class="font-semibold text-gray-900">
-                Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires
-            </h3>
-        </article>
+    <!-- Foundation models -->
+    <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span class="chip">Time Series</span>
+            <span class="chip">Foundation Model</span>
+        </div>
+        <h3 class="font-semibold text-gray-900">
+            Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires
+        </h3>
+        <p class="mt-2 text-gray-600 text-sm md:text-base">
+            Étude et expérimentation de modèles de fondation pour séries temporelles et données tabulaires afin de
+            apprendre des représentations générales des courbes de charge, réutilisables pour diverses tâches aval
+            (prédiction, segmentation, détection d’événements, caractérisation des usages).
+        </p>
+        <a
+            href="https://github.com/adrienpetralia/adrienpetralia.github.io/raw/master/_internships/EDF-RD-E7C-Stage-2026-EXPLORATION_COURBE_DE_CHARGE_PRO_PAR_IA.pdf"
+            class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
+            target="_blank" rel="noopener"
+        >
+            View full internship description (PDF)
+            <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i>
+        </a>
+    </article>
 
-        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-            <div class="flex flex-wrap items-center gap-2 mb-2">
-                <span class="chip">Causal Inference</span>
-            </div>
-            <h3 class="font-semibold text-gray-900">
-                Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale
-            </h3>
-        </article>
+    <!-- Causal inference -->
+    <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span class="chip">Causal Inference</span>
+        </div>
+        <h3 class="font-semibold text-gray-900">
+            Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale
+        </h3>
+        <p class="mt-2 text-gray-600 text-sm md:text-base">
+            Application de méthodes d’inférence causale pour estimer, à partir de données de comptage et de contexte,
+            la part d’autoconsommation photovoltaïque dans la consommation de logements équipés de panneaux solaires,
+            en présence de signaux bruités et de multiples facteurs confondants.
+        </p>
+        <a
+            href="https://github.com/adrienpetralia/adrienpetralia.github.io/raw/master/_internships/EDF-RD-E7C-Stage-2026-INFERENCE_CAUSALE_PV.pdf"
+            class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
+            target="_blank" rel="noopener"
+        >
+            View full internship description (PDF)
+            <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs" aria-hidden="true"></i>
+        </a>
+    </article>
 
-    </div> <!-- closes space-y-4 -->
+</div>
+
 </section>
 
     </main>

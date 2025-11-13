@@ -112,8 +112,6 @@ permalink: /internships/
 
             </div>
         </section>
-
-        
     </main>
 
     <!-- Footer -->

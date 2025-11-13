@@ -93,7 +93,7 @@ permalink: /internships/
             à partir de grandes bases de séries temporelles issues de compteurs communicants.
         </p>
         <a
-            href="https://github.com/adrienpetralia/adrienpetralia.github.io/raw/master/_internships/EDF-RD-E7C-Stage-2026-DETECTION_ANOMALIES.pdf"
+            href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-DETECTION_ANOMALIES.pdf"
             class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
             target="_blank" rel="noopener"
         >
@@ -117,7 +117,7 @@ permalink: /internships/
             et les contraintes statistiques des données utilisées dans le secteur de l’énergie.
         </p>
         <a
-            href="https://github.com/adrienpetralia/adrienpetralia.github.io/raw/master/_internships/EDF-RD-E7C-Stage-2026-IA_GENERATIVE_TABULAIRE.pdf"
+            href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-IA_GENERATIVE_TABULAIRE.pdf"
             class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
             target="_blank" rel="noopener"
         >

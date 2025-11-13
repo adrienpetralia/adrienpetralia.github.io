@@ -61,26 +61,14 @@ permalink: /internships/
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Internships</h1>
-            <p class="mt-3 text-gray-600">Current internships position in my team.</p>
+            <p class="mt-3 text-gray-600">Current internships position in my team at EDF Lab.</p>
         </header>
 
         <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8">
             <p class="text-lg text-gray-700 mb-6">
-                My research group, based in Palaiseau, regularly recruits interns to conduct cutting-edge research. We invite motivated students to join our team to explore and apply advanced artificial intelligence techniques to text.
+            My research group, based at EDF Lab Paris-Saclay in Palaiseau, regularly recruits interns to conduct cutting-edge data mining and machine learning research applied to the energy domain. We invite motivated students to apply and join our team to work on advanced artificial intelligence techniques!
             </p>
             
-            
-            <div class="mt-8">
-                <h3 class="text-xl font-semibold text-gray-800 mb-4">Research Interests</h3>
-                <div class="flex flex-wrap gap-3">
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Deep Learning</span>
-                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Time Series Analysis</span>
-                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Transformer Models</span>
-                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">NILM Applications</span>
-                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Data Mining</span>
-                </div>
-            </div>
-        </div>
 
         <!-- 2025 -->
         <section class="mb-12" aria-labelledby="y2026">

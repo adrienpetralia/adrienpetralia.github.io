@@ -50,71 +50,77 @@ permalink: /internships/
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="https://adrienpetralia.github.io/#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Publications</a>
-              <a href="https://adrienpetralia.github.io/internships/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Talks</a>
+              <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Talks</a>
                 <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service & Teaching</a>
-              <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Internships</a>
+              <a href="https://adrienpetralia.github.io/internships/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Internships</a>
             </div>
         </div>
     </nav>
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-    My research group, based in Palaiseau, regularly recruits interns to conduct cutting-edge research. We invite motivated students to join our team to explore and apply advanced artificial intelligence techniques to text.
         <header class="text-center mb-12">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Talks & Presentations</h1>
-            <p class="mt-3 text-gray-600">Conference talks, workshops, outreach, and defense.</p>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Internships</h1>
+            <p class="mt-3 text-gray-600">Current internships position in my team.</p>
         </header>
+
+        <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8">
+            <p class="text-lg text-gray-700 mb-6">
+                My research group, based in Palaiseau, regularly recruits interns to conduct cutting-edge research. We invite motivated students to join our team to explore and apply advanced artificial intelligence techniques to text.
+            </p>
+            
+            
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Research Interests</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Deep Learning</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Time Series Analysis</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Transformer Models</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">NILM Applications</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Data Mining</span>
+                </div>
+            </div>
+        </div>
 
         <!-- 2025 -->
         <section class="mb-12" aria-labelledby="y2026">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="y2025" class="text-2xl font-semibold text-gray-800">2025</h2>
+                <h2 id="y2026" class="text-2xl font-semibold text-gray-800">2026</h2>
             </div>
 
             <div class="space-y-4">
-                <!-- KDD 2025 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">KDD</span>
-                        <span class="chip">Toronto, Canada</span>
-                        <span class="chip">Aug 2025</span>
+                        <span class="chip">Time Series</span>
+                        <span class="chip">Anomaly Detection</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900">NILMFormer: A Sequence‑To‑Sequence Non‑Stationarity Aware Transformer for Non‑Intrusive Load Monitoring</h3>
+                    <h3 class="font-semibold text-gray-900">Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA</h3>
                 </article>
 
-                <!-- ICDE 2025 CamAL -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">ICDE</span>
-                        <span class="chip">Hong Kong SAR, China</span>
-                        <span class="chip">May 2025</span>
+                        <span class="chip">Tabular Data</span>
+                        <span class="chip">Gen AI</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900">CamAL: A Weakly Supervised Framework for Appliance Localization in Smart‑Meter Series</h3>
+                    <h3 class="font-semibold text-gray-900">IA génératives adaptées aux données tabulaires pour la génération de données synthétiques</h3>
                 </article>
 
-                <!-- ICDE 2025 DeviceScope -->
+                <div class="space-y-4">
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">ICDE</span>
-                        <span class="chip">Hong Kong SAR, China</span>
-                        <span class="chip">May 2025</span>
+                        <span class="chip">Time Series</span>
+                        <span class="chip">Foundation Model</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900">DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series</h3>
+                    <h3 class="font-semibold text-gray-900">Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires.</h3>
                 </article>
 
-                <!-- PhD Defense 2025 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Defense</span>
-                        <span class="chip">Université Paris Cité</span>
-                        <span class="chip">Paris, France</span>
-                        <span class="chip">May 2025</span>
+                        <span class="chip">Causal Inference</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900">Deep Learning for Electricity Consumption Time Series Analytics</h3>
+                    <h3 class="font-semibold text-gray-900">Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale</h3>
                 </article>
+
             </div>
         </section>
 

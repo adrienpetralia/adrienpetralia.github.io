@@ -61,7 +61,7 @@ permalink: /internships/
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Internships</h1>
-            <p class="mt-3 text-gray-600">Current internships position in my team at EDF Lab.</p>
+            <p class="mt-3 text-gray-600">Current open internships position in my research group.</p>
         </header>
 
         <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8 pb-10 mb-10">

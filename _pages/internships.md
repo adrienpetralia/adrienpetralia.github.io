@@ -68,6 +68,7 @@ permalink: /internships/
             <p class="text-lg text-gray-700 mb-6">
             My research group, based at EDF Lab Paris-Saclay in Palaiseau, regularly recruits interns to conduct cutting-edge data mining and machine learning research applied to the energy domain. We invite motivated students to apply and join our team to work on advanced artificial intelligence techniques!
             </p>
+        </div>
             
 
         <!-- 2026 -->

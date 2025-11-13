@@ -70,48 +70,57 @@ permalink: /internships/
             </p>
             
 
-        <!-- 2025 -->
-        <section class="mb-12" aria-labelledby="y2026">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="y2026" class="text-2xl font-semibold text-gray-800">2026</h2>
+        <!-- 2026 -->
+<section class="mb-12" aria-labelledby="y2026">
+    <div class="flex items-center gap-3 mb-4">
+        <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
+        <h2 id="y2026" class="text-2xl font-semibold text-gray-800">2026</h2>
+    </div>
+
+    <div class="space-y-4">
+
+        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+                <span class="chip">Time Series</span>
+                <span class="chip">Anomaly Detection</span>
             </div>
+            <h3 class="font-semibold text-gray-900">
+                Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
+            </h3>
+        </article>
 
-            <div class="space-y-4">
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Time Series</span>
-                        <span class="chip">Anomaly Detection</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA</h3>
-                </article>
-
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Tabular Data</span>
-                        <span class="chip">Gen AI</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">IA génératives adaptées aux données tabulaires pour la génération de données synthétiques</h3>
-                </article>
-
-                <div class="space-y-4">
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Time Series</span>
-                        <span class="chip">Foundation Model</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires.</h3>
-                </article>
-
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Causal Inference</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale</h3>
-                </article>
-
+        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+                <span class="chip">Tabular Data</span>
+                <span class="chip">Gen AI</span>
             </div>
-        </section>
+            <h3 class="font-semibold text-gray-900">
+                IA génératives adaptées aux données tabulaires pour la génération de données synthétiques
+            </h3>
+        </article>
+
+        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+                <span class="chip">Time Series</span>
+                <span class="chip">Foundation Model</span>
+            </div>
+            <h3 class="font-semibold text-gray-900">
+                Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires
+            </h3>
+        </article>
+
+        <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+                <span class="chip">Causal Inference</span>
+            </div>
+            <h3 class="font-semibold text-gray-900">
+                Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale
+            </h3>
+        </article>
+
+    </div> <!-- closes space-y-4 -->
+</section>
+
     </main>
 
     <!-- Footer -->

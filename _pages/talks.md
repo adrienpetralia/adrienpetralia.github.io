@@ -81,6 +81,11 @@ permalink: /talks/
                         <span class="chip">Aug 2025</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">NILMFormer: A Sequence‑To‑Sequence Non‑Stationarity Aware Transformer for Non‑Intrusive Load Monitoring</h3>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/kdd25-nilmformer-slides.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> Slides
+                        </a>
+                    </div>
                 </article>
 
                 <!-- ICDE 2025 CamAL -->
@@ -92,17 +97,11 @@ permalink: /talks/
                         <span class="chip">May 2025</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">CamAL: A Weakly Supervised Framework for Appliance Localization in Smart‑Meter Series</h3>
-                </article>
-
-                <!-- ICDE 2025 DeviceScope -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">ICDE</span>
-                        <span class="chip">Hong Kong SAR, China</span>
-                        <span class="chip">May 2025</span>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/icde25-camal-slides.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> Slides
+                        </a>
                     </div>
-                    <h3 class="font-semibold text-gray-900">DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series</h3>
                 </article>
 
                 <!-- PhD Defense 2025 -->

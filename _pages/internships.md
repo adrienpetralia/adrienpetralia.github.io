@@ -61,7 +61,7 @@ permalink: /internships/
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Internships</h1>
-            <p class="mt-3 text-gray-600">Current open internships position in my research group.</p>
+            <p class="mt-3 text-gray-600">Internship positions in my research group.</p>
         </header>
 
         <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8 pb-10 mb-10">
@@ -71,8 +71,8 @@ permalink: /internships/
                 <p class="text-lg text-gray-700 md:w-3/4">
                     My research group at EDF Lab Paris-Saclay (Palaiseau, France) regularly hosts internship projects at the 
                     interface between data mining, machine learning, and energy systems. We work on real-world challenges 
-                    using advanced AI methods, and we welcome motivated students who want to contribute to impactful research 
-                    on time series and energy data.
+                    using advanced AI methods, and we welcome motivated students who want to contribute to impactful 
+                    research applied to the energy domain.
                 </p>
         
                 <!-- Logo -->
@@ -89,6 +89,10 @@ permalink: /internships/
 
         <!-- 2026 -->
 <section class="mb-12" aria-labelledby="y2026">
+    <div class="flex items-center gap-3 mb-4">
+        <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
+        <h2 id="y2025" class="text-2xl font-semibold text-gray-800">2026 Open positions (strating from February)</h2>
+    </div>
     <div class="space-y-4">
 
     <!-- Anomaly detection -->

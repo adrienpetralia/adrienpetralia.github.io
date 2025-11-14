@@ -106,7 +106,7 @@ permalink: /internships/
             Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
         </h3>
         <p class="mt-2 text-gray-600 text-sm md:text-base">
-            Conception et benchmark de méthodes d’IA de pointe (Transformers, apprentissage auto-supervisé, modèles de fondation) pour détecter automatiquement anomalies, dérives et changements de comportements dans les courbes de charge Linky. Le stage s’appuie sur de grands jeux de données clients réels et contribue directement à des cas d’usage métier (fraude, pannes, changements d’usage…) ainsi qu’à une thèse sur l’explicabilité des modèles multimodaux.
+            Conception et benchmark de méthodes d’IA de pointe (Transformers, apprentissage auto-supervisé, modèles de fondation) pour détecter automatiquement anomalies, dérives et changements de comportements dans les séries temporelles de consommation électrique (e.g., courbes de charge issues des compteurs Linky). Le stage s’appuiera sur des jeux de données réels et contribuera directement à des cas d’usage métier (fraude, pannes, changements d’usage…) ainsi qu’à une thèse de doctorat en cours sur l’explicabilité des modèles multimodaux.
         </p>
         <a
             href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-DETECTION_ANOMALIES.pdf"

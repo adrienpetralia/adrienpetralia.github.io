@@ -65,11 +65,24 @@ permalink: /internships/
         </header>
 
         <div class="bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8 pb-10 mb-10">
-            <p class="text-lg text-gray-700">
-                My research group at EDF Lab Paris-Saclay (Palaiseau, France) regularly hosts internship projects at the interface between 
-                data mining, machine learning, and energy systems. We work on real-world challenges using advanced AI methods, and we welcome 
-                motivated students who want to contribute to impactful research on time series and energy data.
-            </p>
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        
+                <!-- Text -->
+                <p class="text-lg text-gray-700 md:w-3/4">
+                    My research group at EDF Lab Paris-Saclay (Palaiseau, France) regularly hosts internship projects at the 
+                    interface between data mining, machine learning, and energy systems. We work on real-world challenges 
+                    using advanced AI methods, and we welcome motivated students who want to contribute to impactful research 
+                    on time series and energy data.
+                </p>
+        
+                <!-- Logo -->
+                <img 
+                    src="https://adrienpetralia.github.io/images/edf.png" 
+                    alt="EDF logo"
+                    class="w-24 h-auto md:w-32 object-contain opacity-90"
+                />
+        
+            </div>
         </div>
 
             
@@ -83,6 +96,7 @@ permalink: /internships/
         <div class="flex flex-wrap items-center gap-2 mb-2">
             <span class="chip">Time Series</span>
             <span class="chip">Anomaly Detection</span>
+            <span class="chip">Transformer</span>
         </div>
         <h3 class="font-semibold text-gray-900">
             Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
@@ -104,7 +118,8 @@ permalink: /internships/
     <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
         <div class="flex flex-wrap items-center gap-2 mb-2">
             <span class="chip">Tabular Data</span>
-            <span class="chip">Gen AI</span>
+            <span class="chip">Generative AI</span>
+            <span class="chip">Diffusion</span>
         </div>
         <h3 class="font-semibold text-gray-900">
             IA génératives adaptées aux données tabulaires pour la génération de données synthétiques
@@ -127,12 +142,13 @@ permalink: /internships/
         <div class="flex flex-wrap items-center gap-2 mb-2">
             <span class="chip">Time Series</span>
             <span class="chip">Foundation Model</span>
+            <span class="chip">Scoring</span>
         </div>
         <h3 class="font-semibold text-gray-900">
             Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires
         </h3>
         <p class="mt-2 text-gray-600 text-sm md:text-base">
-            Exploration de modèles de fondation pour analyser les courbes de charge de clients professionnels (« PRO ») et leurs données associées. Le stage consiste à détecter usages et équipements, réaliser du clustering de profils et de la classification de comportements à l’aide de modèles avancés pour séries temporelles et données tabulaires, afin d’accompagner les entreprises dans la maîtrise de leur consommation et de leur empreinte carbone.
+            Exploration de modèles de fondation pour analyser les courbes de charge de clients professionnels et leurs données associées. Le stage consiste à détecter usages et équipements, réaliser du clustering de profils et de la classification de comportements à l’aide de modèles avancés pour séries temporelles et données tabulaires, afin d’accompagner les entreprises dans la maîtrise de leur consommation et de leur empreinte carbone.
         </p>
         <a
             href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-EXPLORATION_COURBE_DE_CHARGE_PRO_PAR_IA.pdf"
@@ -148,6 +164,8 @@ permalink: /internships/
     <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
         <div class="flex flex-wrap items-center gap-2 mb-2">
             <span class="chip">Causal Inference</span>
+            <span class="chip">Time Series</span>
+            <span class="chip">Electricity Consumption Data</span>
         </div>
         <h3 class="font-semibold text-gray-900">
             Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale

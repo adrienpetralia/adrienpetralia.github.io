@@ -113,6 +113,13 @@ permalink: /talks/
                         <span class="chip">May 2025</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">Deep Learning for Electricity Consumption Time Series Analytics</h3>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" 
+                        href="https://adrienpetralia.github.io/_slides/PhDDefenseSlides.pdf" 
+                        target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> Slides
+                        </a>
+                    </div>
                 </article>
             </div>
         </section>

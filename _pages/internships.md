@@ -91,7 +91,7 @@ permalink: /internships/
 <section class="mb-12" aria-labelledby="y2026">
     <div class="flex items-center gap-3 mb-4">
         <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-        <h2 id="y2025" class="text-2xl font-semibold text-gray-800">2026 Open positions (strating from February)</h2>
+        <h2 id="y2025" class="text-2xl font-semibold text-gray-800">Open positions for 2026 (starting from February)</h2>
     </div>
     <div class="space-y-4">
 

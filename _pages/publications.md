@@ -280,7 +280,7 @@ permalink: /publications/
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Caracterisation pour l'optimisation de la consommation électrique d'un ensemble d'équipements connectés a un réseau électrique</h3>
                     <p class="text-gray-700 mt-1">Luc Dufour, Pascal Chaussumier, Adrien Petralia, Philippe Charpentier, Themis Palpanas, Justin Capik</p>
-                    <p class="text-gray-600 mt-1 italic">French Patent FR2314217 ; European Patent EP24219353</p>
+                    <p class="text-gray-600 mt-1 italic">French Patent FR3156961 ; European Patent EP4571461</p>
                 </article>
             </div>
         </section>

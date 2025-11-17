@@ -34,7 +34,7 @@ permalink: /publications/
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="https://adrienpetralia.github.io/#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                     <a href="https://adrienpetralia.github.io/publications/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Publications</a>
-                    <a href="https://adrienpetralia.github.io/talks/" class="text-gray-700 hover:text-blue-600 transition">Talks</a>
+                    <a href="https://adrienpetralia.github.io/talks/" class="text-gray-700 hover:text-blue-600 transition">Thesis</a>
                     <a href="https://adrienpetralia.github.io/teaching/" class="text-gray-700 hover:text-blue-600 transition">Service & Teaching</a>
                     <a href="https://adrienpetralia.github.io/internships/" class="text-gray-700 hover:text-blue-600 transition">Internships</a>
                 </div>
@@ -52,7 +52,7 @@ permalink: /publications/
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="https://adrienpetralia.github.io/#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Publications</a>
-                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Talks</a>
+                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Thesis</a>
                 <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service & Teaching</a>
                 <a href="https://adrienpetralia.github.io/internships/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Internships</a>
             </div>
@@ -62,7 +62,7 @@ permalink: /publications/
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Publications</h1>
-            <p class="mt-3 text-gray-600">Peer‑reviewed work across journals, conferences, and patents.</p>
+            <p class="mt-3 text-gray-600">Selected work across journals, conferences, and patents.</p>
         </header>
 
         <!-- Preprints -->
@@ -343,22 +343,31 @@ permalink: /publications/
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
+        <!--
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Adrien Petralia</h3>
-                    <p class="text-gray-400">PhD, AI Researcher specializing in time series analytics and deep learning.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="https://adrienpetralia.github.io/#about" class="text-gray-400 hover:text-white transition">About</a></li>
-                        <li><a href="https://adrienpetralia.github.io/publications/" class="text-gray-400 hover:text-white transition">Publications</a></li>
-                        <li><a href="https://adrienpetralia.github.io/talks/" class="text-gray-400 hover:text-white transition">Talks</a></li>
-                    </ul>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/adrienpetralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/adrien-petralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=-5WG3n0AAAAJ&hl=en" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">
+                        <a href="mailto:adrien.petralia@gmail.com" class="hover:text-white transition">firstname[dot]name[at]gmail.com</a>
+                    </p>
                 </div>
             </div>
-            <div class="mt-8 text-center text-gray-500">&copy; {{ site.time | date: '%Y' }} Adrien Petralia</div>
+            -->
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 Adrien Petralia.</p>
+            </div>
         </div>
     </footer>
 

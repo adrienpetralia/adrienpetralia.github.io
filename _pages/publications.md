@@ -276,10 +276,11 @@ permalink: /publications/
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2023</span>
                         <span class="chip">FR</span>
+                        <span class="chip">EU</span>
                     </div>
-                    <h3 class="pub-title font-semibold text-gray-900">Caracterisation pour l'optimisation de la consommation electrique d'un ensemble d'equipements connectes a un reseau electrique</h3>
+                    <h3 class="pub-title font-semibold text-gray-900">Caracterisation pour l'optimisation de la consommation électrique d'un ensemble d'équipements connectés a un réseau électrique</h3>
                     <p class="text-gray-700 mt-1">Luc Dufour, Pascal Chaussumier, Adrien Petralia, Philippe Charpentier, Themis Palpanas, Justin Capik</p>
-                    <p class="text-gray-600 mt-1 italic">French Patent FR2314217</p>
+                    <p class="text-gray-600 mt-1 italic">French Patent FR2314217 ; European Patent EP24219353</p>
                 </article>
             </div>
         </section>

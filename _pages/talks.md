@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "Talks"
+title: "Thesis"
 permalink: /talks/
 ---
 
@@ -60,8 +60,8 @@ permalink: /talks/
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Thesis</h1>
-            <p class="mt-3 text-gray-600">PhD thesis details.</p>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">PhD Thesis</h1>
+            <p class="mt-3 text-gray-600">PhD thesis manuscript and defense slides.</p>
         </header>
 
         <section class="mb-12" aria-labelledby="y2025">

@@ -124,6 +124,7 @@ include:
   - files
   - _internships
   - _slides
+  - _posters
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

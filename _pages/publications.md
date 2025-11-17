@@ -149,7 +149,10 @@ permalink: /publications/
                             <i class="fa-solid fa-file-pdf"></i> PDF
                         </a>
                         <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/kdd25-nilmformer-slides.pdf" target="_blank" rel="noopener">
-                            <i class="fa-solid fa-file-pdf"></i> Slides
+                            <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/NILMFormer/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
                         </a>
                     </div>
                 </article>
@@ -165,7 +168,15 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas</p>
                     <p class="text-gray-600 mt-1 italic">IEEE International Conference on Data Engineering (ICDE), Hong Kong SAR, China, May 2025</p>
                     <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://arxiv.org/pdf/2506.05895" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+                        <a class="btn" href="https://arxiv.org/pdf/2506.05895" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/icde25-camal-slides.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/CamAL/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
                     </div>
                 </article>
 

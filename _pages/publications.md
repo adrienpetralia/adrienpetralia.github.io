@@ -152,7 +152,7 @@ permalink: /publications/
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">NILMFormer: Non-Intrusive Load Monitoring that Accounts for Non-Stationarity</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Philippe Charpentier, Youssef Kadhi, Themis Palpanas</p>
-                    <p class="text-gray-600 mt-1 italic">ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), Toronto, ON, Canada</p>
+                    <p class="text-gray-600 mt-1 italic">ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), Toronto, ON, Canada, August 2025</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2506.05880" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF
@@ -225,8 +225,8 @@ permalink: /publications/
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2024</span>
-                        <span class="chip">Workshop</span>
-                        <span class="chip">VLDB</span>
+                        <span class="chip">Conference</span>
+                        <span class="chip">VLDB PhD Workshop</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Time Series Analytics for Electricity Consumption Data</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia</p>
@@ -250,7 +250,7 @@ permalink: /publications/
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Appliance Detection Using Very Low-Frequency Smart Meter Time Series</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas</p>
-                    <p class="text-gray-600 mt-1 italic">BDA 2023 – 39ème Conférence sur la Gestion de Données, Principes, Technologies et Applications</p>
+                    <p class="text-gray-600 mt-1 italic">39ème Conférence sur la Gestion de Données - Principes, Technologies et Applications (BDA), Montpellier, France, October 2023</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-04627853v1/file/actesBDA2023.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
                     </div>

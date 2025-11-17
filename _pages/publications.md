@@ -255,7 +255,7 @@ permalink: /publications/
                         <span class="chip">2025</span>
                         <span class="chip">FR</span>
                     </div>
-                    <h3 class="pub-title font-semibold text-gray-900">Determination d'une activation au cours du temps d'un equipement donne au sein d'un ensemble d'equipements a partir de donnees collectees</h3>
+                    <h3 class="pub-title font-semibold text-gray-900">Détermination d'une activation au cours du temps d'un équipement donné au sein d'un ensemble d'équipements à partir de données collectées</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Paul Boniol, Themis Palpanas, Philippe Charpentier</p>
                     <p class="text-gray-600 mt-1 italic">French Patent FR2504769</p>
                 </article>
@@ -266,7 +266,7 @@ permalink: /publications/
                         <span class="chip">2024</span>
                         <span class="chip">FR</span>
                     </div>
-                    <h3 class="pub-title font-semibold text-gray-900">Extraction de la consommation electrique d'un equipement individuel au sein d'un ensemble d'equipements connectes a un reseau electrique</h3>
+                    <h3 class="pub-title font-semibold text-gray-900">Extraction de la consommation électrique d'un équipement individuel au sein d'un ensemble d'équipements connectés a un réseau électrique</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Themis Palpanas, Philippe Charpentier, Claire Lambert</p>
                     <p class="text-gray-600 mt-1 italic">French Patent FR2410061</p>
                 </article>

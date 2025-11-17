@@ -121,6 +121,15 @@ permalink: /publications/
                         <a class="btn" href="https://arxiv.org/pdf/2401.05381" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF
                         </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_slides/VLDB24_ADFTransApp.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/VLDB2024_TransApp.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/TransApp/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
                     </div>
                 </article>
             </div>
@@ -151,6 +160,9 @@ permalink: /publications/
                         <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/kdd25-nilmformer-slides.pdf" target="_blank" rel="noopener">
                             <i class="fa-solid fa-person-chalkboard"></i> Slides
                         </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/KDD2025_NILMFormer.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
                         <a class="btn" href="https://github.com/adrienpetralia/NILMFormer/" target="_blank" rel="noopener">
                             <i class="fa-brands fa-github"></i> Code
                         </a>
@@ -174,6 +186,9 @@ permalink: /publications/
                         <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/icde25-camal-slides.pdf" target="_blank" rel="noopener">
                             <i class="fa-solid fa-person-chalkboard"></i> Slides
                         </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/ICDE2025_CamAL.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
                         <a class="btn" href="https://github.com/adrienpetralia/CamAL/" target="_blank" rel="noopener">
                             <i class="fa-brands fa-github"></i> Code
                         </a>
@@ -191,7 +206,18 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas</p>
                     <p class="text-gray-600 mt-1 italic">IEEE International Conference on Data Engineering (ICDE), Hong Kong SAR, China, 2025</p>
                     <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://arxiv.org/pdf/2506.05912" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+                        <a class="btn" href="https://arxiv.org/pdf/2506.05912" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/ICDE2025_DeviceScope.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/CamAL/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a class="btn" href="https://devicescope.streamlit.app/" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-desktop"></i> Demo
+                        </a>
                     </div>
                 </article>
 
@@ -199,14 +225,19 @@ permalink: /publications/
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2024</span>
-                        <span class="chip">Workshop</span>
                         <span class="chip">VLDB</span>
+                        <span class="chip">Workshop</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Time Series Analytics for Electricity Consumption Data</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia</p>
                     <p class="text-gray-600 mt-1 italic">Very Large Data Bases (VLDB) PhD Workshop, Guangzhou, China, August 2024</p>
                     <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://hal.science/hal-04706310v1/file/Time%20Series%20Analytics%20for%20Electricity%20Consumption%20Data.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+                        <a class="btn" href="https://hal.science/hal-04706310v1/file/Time%20Series%20Analytics%20for%20Electricity%20Consumption%20Data.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_slides/VLDB24_TimeSeriesAnalyticsforElectricityConsumptionData.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
                     </div>
                 </article>
 
@@ -238,6 +269,9 @@ permalink: /publications/
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2305.10352" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
                     </div>
+                    <a class="btn" href="https://github.com/adrienpetralia/ApplianceDetectionBenchmark/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
                 </article>
 
                 <!-- TELEMAC 2020 -->

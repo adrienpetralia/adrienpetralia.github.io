@@ -67,7 +67,7 @@ permalink: /talks/
         <section class="mb-12" aria-labelledby="y2025">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="y2025" class="text-2xl font-semibold text-gray-800">2025</h2>
+                <h2 id="y2025" class="text-2xl font-semibold text-gray-800">PhD Thesis</h2>
             </div>
                 <!-- PhD Defense 2025 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
@@ -86,58 +86,6 @@ permalink: /talks/
                         </a>
                     </div>
                 </article>
-        </section>
-
-        <section class="mb-12" aria-labelledby="y2024">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-calendar-days text-xl text-purple-600" aria-hidden="true"></i>
-                <h2 id="y2024" class="text-2xl font-semibold text-gray-800">2024</h2>
-            </div>
-
-            <div class="space-y-4">
-                <!-- Double•Science 2024 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Festival</span>
-                        <span class="chip">Double•Science</span>
-                        <span class="chip">Paris, France</span>
-                        <span class="chip">Jun 2024</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">L'intelligence artificielle au service de la compréhension de la consommation d'électricité / How Can Artificial Intelligence Help Us Understand Electricity Consumption?</h3>
-                </article>
-
-                <!-- LIPADE Open Day 2024 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Open Day</span>
-                        <span class="chip">LIPADE – Université Paris Cité</span>
-                        <span class="chip">Paris, France</span>
-                        <span class="chip">Jun 2024</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Time Series Classification for Electricity Consumption Analysis</h3>
-                </article>
-            </div>
-        </section>
-
-        <!-- 2023 -->
-        <section class="mb-12" aria-labelledby="y2023">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-calendar-days text-xl text-emerald-600" aria-hidden="true"></i>
-                <h2 id="y2023" class="text-2xl font-semibold text-gray-800">2023</h2>
-            </div>
-
-            <div class="space-y-4">
-                <!-- CentraleSupélec 2023 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Seminar</span>
-                        <span class="chip">CentraleSupélec</span>
-                        <span class="chip">Metz, France</span>
-                        <span class="chip">Nov 2023</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Electricity Consumption Time Series Classification and Non‑Intrusive Load Monitoring</h3>
-                </article>
-            </div>
         </section>
     </main>
 

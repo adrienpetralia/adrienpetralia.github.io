@@ -8,7 +8,7 @@ permalink: /talks/
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adrien Petralia – Talks</title>
+    <title>Adrien Petralia – Thesis and Seminar Talks</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
@@ -33,7 +33,7 @@ permalink: /talks/
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="https://adrienpetralia.github.io/#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                     <a href="https://adrienpetralia.github.io/publications/" class="text-gray-700 hover:text-blue-600 transition">Publications</a>
-                    <a href="https://adrienpetralia.github.io/talks/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Talks</a>
+                    <a href="https://adrienpetralia.github.io/talks/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Thesis</a>
                     <a href="https://adrienpetralia.github.io/teaching/" class="text-gray-700 hover:text-blue-600 transition">Service & Teaching</a>
                     <a href="https://adrienpetralia.github.io/internships/" class="text-gray-700 hover:text-blue-600 transition">Internships</a>
                 </div>
@@ -51,7 +51,7 @@ permalink: /talks/
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="https://adrienpetralia.github.io/#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Publications</a>
-                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Talks</a>
+                <a href="https://adrienpetralia.github.io/talks/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Thesis</a>
                 <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service & Teaching</a>
                 <a href="https://adrienpetralia.github.io/internships/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Internships</a>
             </div>
@@ -60,50 +60,15 @@ permalink: /talks/
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <header class="text-center mb-12">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Talks & Presentations</h1>
-            <p class="mt-3 text-gray-600">Conference talks, workshops, outreach, and defense.</p>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Thesis & Seminar Talks</h1>
+            <p class="mt-3 text-gray-600">PhD defense thesis and invited seminar talks.</p>
         </header>
 
-        <!-- 2025 -->
         <section class="mb-12" aria-labelledby="y2025">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
                 <h2 id="y2025" class="text-2xl font-semibold text-gray-800">2025</h2>
             </div>
-
-            <div class="space-y-4">
-                <!-- KDD 2025 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">KDD</span>
-                        <span class="chip">Toronto, Canada</span>
-                        <span class="chip">Aug 2025</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">NILMFormer: A Sequence‑To‑Sequence Non‑Stationarity Aware Transformer for Non‑Intrusive Load Monitoring</h3>
-                    <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/kdd25-nilmformer-slides.pdf" target="_blank" rel="noopener">
-                            <i class="fa-solid fa-file-pdf"></i> Slides
-                        </a>
-                    </div>
-                </article>
-
-                <!-- ICDE 2025 CamAL -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">ICDE</span>
-                        <span class="chip">Hong Kong SAR, China</span>
-                        <span class="chip">May 2025</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">CamAL: A Weakly Supervised Framework for Appliance Localization in Smart‑Meter Series</h3>
-                    <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://helios2.mi.parisdescartes.fr/~themisp/publications/icde25-camal-slides.pdf" target="_blank" rel="noopener">
-                            <i class="fa-solid fa-file-pdf"></i> Slides
-                        </a>
-                    </div>
-                </article>
-
                 <!-- PhD Defense 2025 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
@@ -124,7 +89,6 @@ permalink: /talks/
             </div>
         </section>
 
-        <!-- 2024 -->
         <section class="mb-12" aria-labelledby="y2024">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-calendar-days text-xl text-purple-600" aria-hidden="true"></i>
@@ -132,28 +96,6 @@ permalink: /talks/
             </div>
 
             <div class="space-y-4">
-                <!-- VLDB 2024 ADF & TransApp -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">VLDB</span>
-                        <span class="chip">Guangzhou, China</span>
-                        <span class="chip">Aug 2024</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">ADF & TransApp: A Transformer‑Based Framework for Appliance Detection Using Smart Meter Consumption Series</h3>
-                </article>
-
-                <!-- VLDB PhD Workshop 2024 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Workshop</span>
-                        <span class="chip">VLDB PhD Workshop</span>
-                        <span class="chip">Guangzhou, China</span>
-                        <span class="chip">Aug 2024</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Time Series Analytics for Electricity Consumption Data</h3>
-                </article>
-
                 <!-- Double•Science 2024 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
@@ -196,28 +138,6 @@ permalink: /talks/
                     </div>
                     <h3 class="font-semibold text-gray-900">Electricity Consumption Time Series Classification and Non‑Intrusive Load Monitoring</h3>
                 </article>
-
-                <!-- BDA 2023 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">BDA</span>
-                        <span class="chip">Montpellier, France</span>
-                        <span class="chip">Oct 2023</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Détection de présence d'appareils dans les courbes de consommation très basse fréquences / Appliance Detection Using Very Low‑Frequency Time Series</h3>
-                </article>
-
-                <!-- e-Energy 2023 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">Conference</span>
-                        <span class="chip">ACM e‑Energy</span>
-                        <span class="chip">Orlando, FL, USA</span>
-                        <span class="chip">Jun 2023</span>
-                    </div>
-                    <h3 class="font-semibold text-gray-900">Appliance Detection Using Very Low‑Frequency Time Series</h3>
-                </article>
             </div>
         </section>
     </main>
@@ -227,19 +147,27 @@ permalink: /talks/
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Adrien Petralia</h3>
-                    <p class="text-gray-400">PhD, AI Researcher specializing in time series analytics and deep learning.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="https://adrienpetralia.github.io/#about" class="text-gray-400 hover:text-white transition">About</a></li>
-                        <li><a href="https://adrienpetralia.github.io/publications/" class="text-gray-400 hover:text-white transition">Publications</a></li>
-                        <li><a href="https://adrienpetralia.github.io/talks/" class="text-gray-400 hover:text-white transition">Talks</a></li>
-                    </ul>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/adrienpetralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/adrien-petralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=-5WG3n0AAAAJ&hl=en" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">
+                        <a href="mailto:adrien.petralia@gmail.com" class="hover:text-white transition">firstname[dot]name[at]gmail.com</a>
+                    </p>
                 </div>
             </div>
-            <div class="mt-8 text-center text-gray-500">&copy; {{ site.time | date: '%Y' }} Adrien Petralia</div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 Adrien Petralia.</p>
+            </div>
         </div>
     </footer>
 

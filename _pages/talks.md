@@ -86,7 +86,6 @@ permalink: /talks/
                         </a>
                     </div>
                 </article>
-            </div>
         </section>
 
         <section class="mb-12" aria-labelledby="y2024">

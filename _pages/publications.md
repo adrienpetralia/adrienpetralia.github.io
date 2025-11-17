@@ -267,11 +267,16 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas</p>
                     <p class="text-gray-600 mt-1 italic">ACM International Conference on Future Energy Systems (e‑Energy), Orlando, FL, USA, June 2023</p>
                     <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://arxiv.org/pdf/2305.10352" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
-                    </div>
-                    <a class="btn" href="https://github.com/adrienpetralia/ApplianceDetectionBenchmark/" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-github"></i> Code
+                        <a class="btn" href="https://arxiv.org/pdf/2305.10352" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
                         </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_slides/eEnergy23_ApplianceDetectionUsingVeryLowFrequencyTimeSeries.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/ApplianceDetectionBenchmark/" target="_blank" rel="noopener">
+                                <i class="fa-brands fa-github"></i> Code
+                        </a>
+                    </div>
                 </article>
 
                 <!-- TELEMAC 2020 -->

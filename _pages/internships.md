@@ -199,19 +199,27 @@ permalink: /internships/
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Adrien Petralia</h3>
-                    <p class="text-gray-400">PhD, AI Researcher specializing in time series analytics and deep learning.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="https://adrienpetralia.github.io/#about" class="text-gray-400 hover:text-white transition">About</a></li>
-                        <li><a href="https://adrienpetralia.github.io/publications/" class="text-gray-400 hover:text-white transition">Publications</a></li>
-                        <li><a href="https://adrienpetralia.github.io/talks/" class="text-gray-400 hover:text-white transition">Talks</a></li>
-                    </ul>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/adrienpetralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/adrien-petralia" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=-5WG3n0AAAAJ&hl=en" class="text-gray-400 hover:text-white text-2xl transition">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">
+                        <a href="mailto:adrien.petralia@gmail.com" class="hover:text-white transition">firstname[dot]name[at]gmail.com</a>
+                    </p>
                 </div>
             </div>
-            <div class="mt-8 text-center text-gray-500">&copy; {{ site.time | date: '%Y' }} Adrien Petralia</div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 Adrien Petralia.</p>
+            </div>
         </div>
     </footer>
 

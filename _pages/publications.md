@@ -225,8 +225,8 @@ permalink: /publications/
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2024</span>
-                        <span class="chip">VLDB</span>
                         <span class="chip">Workshop</span>
+                        <span class="chip">VLDB</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Time Series Analytics for Electricity Consumption Data</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia</p>

@@ -212,8 +212,12 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">
                         Adrien Petralia, Philippe Charpentier, Themis Palpanas
                     </p>
-                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal, December 2023</p> 
-                    p class="text-gray-600 mt-1 italic">Presented at the 50th International Conference on Very Large DataBases (VLDB), Guangzhou, China, August 2024</p>
+                    <p class="text-gray-600 mt-1 italic">
+                        Proceedings of the VLDB Endowment (PVLDB) Journal, December 2023
+                    </p> 
+                    <p class="text-gray-600 mt-1 italic">
+                        Presented at the 50th International Conference on Very Large DataBases (VLDB), Guangzhou, China, August 2024
+                    </p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2401.05381" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF

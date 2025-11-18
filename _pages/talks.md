@@ -8,7 +8,7 @@ permalink: /talks/
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adrien Petralia – Thesis and Seminar Talks</title>
+    <title>Adrien Petralia – PhD Thesis</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
@@ -59,17 +59,90 @@ permalink: /talks/
     </nav>
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-        <header class="text-center mb-12">
+        <!-- Page header -->
+        <header class="mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">PhD Thesis</h1>
-            <p class="mt-3 text-gray-600">PhD thesis manuscript and defense slides.</p>
+            <p class="mt-3 text-gray-600 max-w-2xl">
+                My PhD work focuses on deep learning for large-scale electricity consumption time series,
+                with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
+                consumer-facing energy feedback at EDF.
+            </p>
+            <p class="mt-2 text-sm text-gray-500">
+                PhD in Artificial Intelligence, Université Paris Cité &amp; EDF R&amp;D – supervised by Prof. Themis Palpanas.
+            </p>
         </header>
 
-        <section class="mb-12" aria-labelledby="y2025">
+        <!-- Overview / Abstract -->
+        <section class="mb-12" aria-labelledby="overview">
             <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="y2025" class="text-2xl font-semibold text-gray-800">PhD Thesis</h2>
+                <i class="fa-solid fa-circle-info text-xl text-blue-600" aria-hidden="true"></i>
+                <h2 id="overview" class="text-2xl font-semibold text-gray-800">Overview</h2>
             </div>
-                <!-- PhD Defense 2025 -->
+            <div class="bg-white rounded-2xl shadow-sm p-6">
+                <p class="text-gray-700 mb-4">
+                    The thesis investigates how modern deep learning models, in particular Transformer-based architectures,
+                    can be used to model household electricity consumption at scale. The goal is twofold:
+                    (i) learn robust representations of smart-meter data that transfer across downstream tasks
+                    (classification, regression, forecasting), and (ii) design models capable of disaggregating
+                    aggregated household load into appliance-level signals (NILM), with direct deployment in
+                    EDF’s <em>Mon Suivi Conso</em> service.
+                </p>
+                <p class="text-gray-700">
+                    Beyond methodological contributions, the work is strongly driven by industrial constraints:
+                    nationwide deployment on millions of meters, heterogeneous consumption behaviours, and the need
+                    for interpretable, actionable feedback to support the energy transition.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key contributions -->
+        <section class="mb-12" aria-labelledby="contributions">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-lightbulb text-xl text-purple-600" aria-hidden="true"></i>
+                <h2 id="contributions" class="text-2xl font-semibold text-gray-800">Key Contributions</h2>
+            </div>
+            <article class="bg-white rounded-2xl shadow-sm p-6">
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>
+                        <span class="font-medium">Representation learning for smart-meter time series.</span>
+                        Design and training of large deep learning models that serve as foundations for
+                        multiple downstream analytics tasks on electricity consumption.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Manuscript & defense materials -->
+        <section class="mb-12" aria-labelledby="materials">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-graduation-cap text-xl text-blue-600" aria-hidden="true"></i>
+                <h2 id="materials" class="text-2xl font-semibold text-gray-800">Manuscript &amp; Defense</h2>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Manuscript -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">Manuscript</span>
+                        <span class="chip">Université Paris Cité</span>
+                        <span class="chip">2025</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-900 mb-2">
+                        Deep Learning for Electricity Consumption Time Series Analytics
+                    </h3>
+                    <p class="text-gray-700 mb-3">
+                        Final PhD thesis manuscript, available on HAL.
+                    </p>
+                    <div class="mt-1 flex flex-wrap gap-2">
+                        <a class="btn"
+                           href="https://theses.hal.science/tel-05355201v1/document"
+                           target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> Manuscript (HAL)
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Defense -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">Defense</span>
@@ -77,20 +150,26 @@ permalink: /talks/
                         <span class="chip">Paris, France</span>
                         <span class="chip">May 2025</span>
                     </div>
-                    <h3 class="font-semibold text-gray-900">Deep Learning for Electricity Consumption Time Series Analytics</h3>
-                    <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" 
-                        href="https://adrienpetralia.github.io/_slides/PhDDefenseSlides.pdf" 
-                        target="_blank" rel="noopener">
-                            <i class="fa-solid fa-file-pdf"></i> Slides
+                    <h3 class="font-semibold text-gray-900 mb-2">
+                        PhD Defense – Deep Learning for Electricity Consumption Time Series Analytics
+                    </h3>
+                    <p class="text-gray-700 mb-3">
+                        Slides used during the public defense, summarizing the main context, methods, and results.
+                    </p>
+                    <div class="mt-1 flex flex-wrap gap-2">
+                        <a class="btn"
+                           href="https://adrienpetralia.github.io/_slides/PhDDefenseSlides.pdf"
+                           target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> Defense Slides
                         </a>
                     </div>
                 </article>
+            </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
+    <footer class="bg-gray-900 text-white py-6">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
@@ -107,12 +186,14 @@ permalink: /talks/
                         </a>
                     </div>
                     <p class="text-gray-400 mt-4">
-                        <a href="mailto:adrien.petralia@gmail.com" class="hover:text-white transition">firstname[dot]name[at]gmail.com</a>
+                        <a href="mailto:adrien.petralia@gmail.com" class="hover:text-white transition">
+                            firstname[dot]name[at]gmail.com
+                        </a>
                     </p>
                 </div>
             </div>
-            
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+
+            <div class="mt-4 text-center text-gray-400">
                 <p>© 2025 Adrien Petralia.</p>
             </div>
         </div>

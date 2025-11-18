@@ -212,7 +212,8 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">
                         Adrien Petralia, Philippe Charpentier, Themis Palpanas
                     </p>
-                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal - Presented at the 50th International Conference on Very Large DataBases (VLDB), Guangzhou, China, August 2024</p>
+                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal, December 2023</p> 
+                    p class="text-gray-600 mt-1 italic">Presented at the 50th International Conference on Very Large DataBases (VLDB), Guangzhou, China, August 2024</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2401.05381" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF
@@ -236,9 +237,9 @@ permalink: /publications/
                         <span class="chip">Conference</span>
                         <span class="chip">BDA</span>
                     </div>
-                    <h3 class="pub-title font-semibold text-gray-900">Appliance Detection Using Very Low-Frequency Smart Meter Time Series</h3>
+                    <h3 class="pub-title font-semibold text-gray-900">Détection d’appareils électriques à partir de séries temporelles de consommation très basse fréquence</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Philippe Charpentier, Paul Boniol, Themis Palpanas</p>
-                    <p class="text-gray-600 mt-1 italic">39ème Conférence sur la Gestion de Données - Principes, Technologies et Applications (BDA), Montpellier, France, October 2023</p>
+                    <p class="text-gray-600 mt-1 italic">39ème Conférence sur la Gestion de Données (BDA), Montpellier, France, October 2023</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-04627853v1/file/actesBDA2023.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
                     </div>
@@ -323,7 +324,7 @@ permalink: /publications/
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Caracterisation pour l'optimisation de la consommation électrique d'un ensemble d'équipements connectés a un réseau électrique</h3>
                     <p class="text-gray-700 mt-1">Luc Dufour, Pascal Chaussumier, Adrien Petralia, Philippe Charpentier, Themis Palpanas, Justin Capik</p>
-                    <p class="text-gray-600 mt-1 italic">French Patent FR3156961 ; European Patent EP4571461</p>
+                    <p class="text-gray-600 mt-1 italic">French Patent FR3156961 - European Patent EP4571461</p>
                 </article>
             </div>
         </section>

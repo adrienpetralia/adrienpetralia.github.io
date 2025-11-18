@@ -93,11 +93,11 @@ permalink: /publications/
             </div>
         </section>
 
-        <!-- Conferences -->
+        <!-- Journals and Conferences -->
         <section class="mb-12" aria-labelledby="conferences">
             <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-microphone-lines text-xl text-purple-600" aria-hidden="true"></i>
-                <h2 id="conferences" class="text-2xl font-semibold text-gray-800">Journal and Conferences</h2>
+                <i class="fa-solid fa-book-open text-xl text-purple-600" aria-hidden="true"></i>
+                <h2 id="publications" class="text-2xl font-semibold text-gray-800">Journals and Conferences</h2>
             </div>
 
             <div class="space-y-4">
@@ -212,7 +212,7 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">
                         Adrien Petralia, Philippe Charpentier, Themis Palpanas
                     </p>
-                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal - Presented at International Conference on Very Large DataBases (VLDB 2024)</p>
+                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal - Presented at the 50th International Conference on Very Large DataBases (VLDB), Guangzhou, China, August 2024</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2401.05381" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF

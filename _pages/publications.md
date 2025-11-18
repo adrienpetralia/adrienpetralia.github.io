@@ -93,53 +93,11 @@ permalink: /publications/
             </div>
         </section>
 
-        
-
-        <!-- Journals -->
-        <section class="mb-12" aria-labelledby="journals">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-newspaper text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="journals" class="text-2xl font-semibold text-gray-800">Journals</h2>
-            </div>
-
-            <div class="space-y-4">
-                <!-- PVLDB Journal 2024 -->
-                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
-                    <div class="flex flex-wrap items-center gap-2 mb-2">
-                        <span class="chip">2024</span>
-                        <span class="chip">Journal</span>
-                        <span class="chip">PVLDB</span>
-                    </div>
-                    <h3 class="pub-title font-semibold text-gray-900">
-                        ADF & TransApp: A Transformer-Based Framework for Appliance Detection Using Smart Meter Consumption Series
-                    </h3>
-                    <p class="text-gray-700 mt-1">
-                        Adrien Petralia, Philippe Charpentier, Themis Palpanas
-                    </p>
-                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal - Presented at International Conference on Very Large DataBases (VLDB 2024)</p>
-                    <div class="mt-3 flex flex-wrap gap-2">
-                        <a class="btn" href="https://arxiv.org/pdf/2401.05381" target="_blank" rel="noopener">
-                            <i class="fa-solid fa-file-pdf"></i> PDF
-                        </a>
-                        <a class="btn" href="https://adrienpetralia.github.io/_slides/VLDB24_ADFTransApp.pdf" target="_blank" rel="noopener">
-                            <i class="fa-solid fa-person-chalkboard"></i> Slides
-                        </a>
-                        <a class="btn" href="https://adrienpetralia.github.io/_posters/VLDB2024_TransApp.pdf" target="_blank" rel="noopener">
-                            <i class="fa-solid fa-image"></i> Poster
-                        </a>
-                        <a class="btn" href="https://github.com/adrienpetralia/TransApp/" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-github"></i> Code
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
         <!-- Conferences -->
         <section class="mb-12" aria-labelledby="conferences">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-microphone-lines text-xl text-purple-600" aria-hidden="true"></i>
-                <h2 id="conferences" class="text-2xl font-semibold text-gray-800">Conferences</h2>
+                <h2 id="conferences" class="text-2xl font-semibold text-gray-800">Journal and Conferences</h2>
             </div>
 
             <div class="space-y-4">
@@ -237,6 +195,36 @@ permalink: /publications/
                         </a>
                         <a class="btn" href="https://adrienpetralia.github.io/_slides/VLDB24_TimeSeriesAnalyticsforElectricityConsumptionData.pdf" target="_blank" rel="noopener">
                             <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PVLDB Journal 2024 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2024</span>
+                        <span class="chip">Journal</span>
+                        <span class="chip">PVLDB</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">
+                        ADF & TransApp: A Transformer-Based Framework for Appliance Detection Using Smart Meter Consumption Series
+                    </h3>
+                    <p class="text-gray-700 mt-1">
+                        Adrien Petralia, Philippe Charpentier, Themis Palpanas
+                    </p>
+                    <p class="text-gray-600 mt-1 italic">Proceedings of the VLDB Endowment (PVLDB) Journal - Presented at International Conference on Very Large DataBases (VLDB 2024)</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://arxiv.org/pdf/2401.05381" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_slides/VLDB24_ADFTransApp.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-person-chalkboard"></i> Slides
+                        </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/VLDB2024_TransApp.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/TransApp/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
                         </a>
                     </div>
                 </article>

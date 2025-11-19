@@ -60,23 +60,27 @@ permalink: /talks/
 
     <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <!-- Page header -->
-        <header class="mb-12">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">PhD Thesis</h1>
-            <p class="mt-3 text-gray-600 max-w-2xl">
-                My PhD work focuses on deep learning for large-scale electricity consumption time series,
-                with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
-                consumer-facing energy feedback at EDF.
-            </p>
-            <p class="mt-2 text-sm text-gray-500">
-                PhD in Artificial Intelligence, Université Paris Cité &amp; EDF R&amp;D – supervised by Prof. Themis Palpanas.
-            </p>
+        <header class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">PhD Thesis Overview</h1>
+            <p class="mt-3 text-gray-600">Defended on May 7th, Paris, France.</p>
         </header>
 
         <!-- Overview / Abstract -->
         <section class="mb-12" aria-labelledby="overview">
+        <p class="mt-3 text-gray-600 max-w-2xl">
+            My PhD work focuses on deep learning for large-scale electricity consumption time series,
+            with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
+            consumer-facing energy feedback at EDF.
+        </p>
+        <p class="mt-2 text-sm text-gray-500">
+            PhD in Artificial Intelligence, Université Paris Cité &amp; EDF R&amp;D – supervised by Prof. Themis Palpanas.
+        </p>
+        </section>
+        
+        <section class="mb-12" aria-labelledby="abstract">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-circle-info text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="overview" class="text-2xl font-semibold text-gray-800">Overview</h2>
+                <h2 id="overview" class="text-2xl font-semibold text-gray-800">Abstract</h2>
             </div>
             <div class="bg-white rounded-2xl shadow-sm p-6">
                 <p class="text-gray-700 mb-4">

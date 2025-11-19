@@ -67,53 +67,22 @@ permalink: /talks/
 
         <!-- Overview / Abstract -->
         <section class="mb-12" aria-labelledby="overview">
-        <p class="mt-3 text-gray-600 max-w-2xl">
-            My PhD work focuses on deep learning for large-scale electricity consumption time series,
-            with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
-            consumer-facing energy feedback at EDF.
-        </p>
-        <p class="mt-2 text-sm text-gray-500">
-            PhD in Artificial Intelligence, Université Paris Cité &amp; EDF R&amp;D – supervised by Prof. Themis Palpanas.
-        </p>
-        </section>
-        
-        <section class="mb-12" aria-labelledby="abstract">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-circle-info text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="overview" class="text-2xl font-semibold text-gray-800">Abstract</h2>
-            </div>
-            <div class="bg-white rounded-2xl shadow-sm p-6">
-                <p class="text-gray-700 mb-4">
-                    The thesis investigates how modern deep learning models, in particular Transformer-based architectures,
-                    can be used to model household electricity consumption at scale. The goal is twofold:
-                    (i) learn robust representations of smart-meter data that transfer across downstream tasks
-                    (classification, regression, forecasting), and (ii) design models capable of disaggregating
-                    aggregated household load into appliance-level signals (NILM), with direct deployment in
-                    EDF’s <em>Mon Suivi Conso</em> service.
-                </p>
-                <p class="text-gray-700">
-                    Beyond methodological contributions, the work is strongly driven by industrial constraints:
-                    nationwide deployment on millions of meters, heterogeneous consumption behaviours, and the need
-                    for interpretable, actionable feedback to support the energy transition.
-                </p>
-            </div>
-        </section>
-
-        <!-- Key contributions -->
-        <section class="mb-12" aria-labelledby="contributions">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-lightbulb text-xl text-purple-600" aria-hidden="true"></i>
-                <h2 id="contributions" class="text-2xl font-semibold text-gray-800">Key Contributions</h2>
-            </div>
-            <article class="bg-white rounded-2xl shadow-sm p-6">
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li>
-                        <span class="font-medium">Representation learning for smart-meter time series.</span>
-                        Design and training of large deep learning models that serve as foundations for
-                        multiple downstream analytics tasks on electricity consumption.
-                    </li>
-                </ul>
-            </article>
+            <p class="text-center mt-3 text-gray-600 max-w-2xl">
+                My PhD work focuses on deep learning for large-scale electricity consumption time series,
+                with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
+                consumer-facing energy feedback at EDF.
+                
+                The thesis investigates how modern deep learning models, in particular Transformer-based architectures,
+                can be used to model household electricity consumption at scale. The goal is twofold:
+                (i) learn robust representations of smart-meter data that transfer across downstream tasks
+                (classification, regression, forecasting), and (ii) design models capable of disaggregating
+                aggregated household load into appliance-level signals (NILM), with direct deployment in
+                EDF’s <em>Mon Suivi Conso</em> service.
+            </p>
+                    
+            <p class="text-center mt-2 text-sm text-gray-500">
+                PhD in Artificial Intelligence, Université Paris Cité &amp; EDF R&amp;D – supervised by Prof. Themis Palpanas.
+            </p>
         </section>
 
         <!-- Manuscript & defense materials -->
@@ -122,7 +91,6 @@ permalink: /talks/
                 <i class="fa-solid fa-graduation-cap text-xl text-blue-600" aria-hidden="true"></i>
                 <h2 id="materials" class="text-2xl font-semibold text-gray-800">Manuscript &amp; Defense</h2>
             </div>
-
             <div class="space-y-6">
                 <!-- Manuscript -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
@@ -170,6 +138,33 @@ permalink: /talks/
                 </article>
             </div>
         </section>
+        
+        <section class="mb-12" aria-labelledby="abstract">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-circle-info text-xl text-blue-600" aria-hidden="true"></i>
+                <h2 id="overview" class="text-2xl font-semibold text-gray-800">Abstract</h2>
+            </div>
+                The transition to low-carbon energy, reinforced by international agreements, demands greater flexibility in the electric grid to effectively integrate renewable energy sources.
+                In this context, the widely deployed smart meters provide precise and time-stamped household electricity consumption data, serving as a key enabler for improving grid flexibility.
+                However, their low temporal resolution (typically one reading every 30 minutes) limits their utility for fine-grained analysis, particularly in extracting detailed information on individual appliance consumption.
+                This thesis introduces innovative deep learning-based approaches to analyze these time series and address the challenges of appliance detection and energy usage tracking in households.
+                
+                After establishing the theoretical foundations and reviewing the state of the art in time series analysis and Non-Intrusive Load Monitoring (NILM), this work first focuses on detecting appliance presence from low-frequency aggregated data.
+                An evaluation of multiple classification techniques highlights the superiority of deep learning-based approaches.
+                First, we investigate various time series classification methods and show that deep learning significantly outperforms traditional approaches for detecting whether a household owns a particular appliance. 
+                We then introduce <em>ADF&amp;TransApp</em>, a detection framework leveraging Transformers pre-trained on large volumes of unlabeled data, thus making full use of the extensive consumption datasets available. 
+                Next, we address the localization of appliance activation periods.
+                We propose <em>CamAL</em>, a weakly supervised approach combining convolutional networks and explainability techniques.
+                A key innovation of our solution is its ability to be trained solely on appliance ownership information, significantly reducing the need for annotated data.
+                To make this approach accessible, we developed DeviceScope, an interactive tool that highlights appliance signatures in consumption data, providing clearer insights for both consumers and electricity providers.
+                Finally, to estimate individual appliance consumption, we introduce <em>NILMFormer</em>, a Transformer-based architecture incorporating a normalization mechanism tailored to the NILM problem.
+                This design effectively handles the intrinsic variations in consumption data, addressing the challenge posed by their non-stationary nature.
+                
+                The work conducted in this thesis has led to the large-scale operational deployment of the proposed solutions, demonstrating their relevance for optimized energy management and their active contribution to the energy transition.
+                </p>
+            </div>
+        </section>
+
     </main>
 
     <!-- Footer -->

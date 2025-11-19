@@ -65,9 +65,10 @@ permalink: /talks/
             <p class="mt-3 text-gray-600">Defended on May 7th, Paris, France.</p>
         </header>
 
-        <!-- Overview / Abstract -->
-        <section class="mb-12" aria-labelledby="overview">
-            <p class="text-center mt-3 text-gray-600 max-w-2xl">
+        <!-- Overview / Intro -->
+        <section class="mb-12" aria-labelledby="thesis-intro">
+            <h2 id="thesis-intro" class="sr-only">Thesis overview</h2>
+            <p class="text-center mt-3 text-gray-600 max-w-2xl mx-auto">
                 My PhD work focuses on deep learning for large-scale electricity consumption time series,
                 with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
                 consumer-facing energy feedback at EDF.
@@ -139,30 +140,34 @@ permalink: /talks/
             </div>
         </section>
         
+        <!-- Abstract -->
         <section class="mb-12" aria-labelledby="abstract">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-circle-info text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="overview" class="text-2xl font-semibold text-gray-800">Abstract</h2>
+                <h2 id="abstract" class="text-2xl font-semibold text-gray-800">Abstract</h2>
             </div>
-                The transition to low-carbon energy, reinforced by international agreements, demands greater flexibility in the electric grid to effectively integrate renewable energy sources.
-                In this context, the widely deployed smart meters provide precise and time-stamped household electricity consumption data, serving as a key enabler for improving grid flexibility.
-                However, their low temporal resolution (typically one reading every 30 minutes) limits their utility for fine-grained analysis, particularly in extracting detailed information on individual appliance consumption.
-                This thesis introduces innovative deep learning-based approaches to analyze these time series and address the challenges of appliance detection and energy usage tracking in households.
-                
-                After establishing the theoretical foundations and reviewing the state of the art in time series analysis and Non-Intrusive Load Monitoring (NILM), this work first focuses on detecting appliance presence from low-frequency aggregated data.
-                An evaluation of multiple classification techniques highlights the superiority of deep learning-based approaches.
-                First, we investigate various time series classification methods and show that deep learning significantly outperforms traditional approaches for detecting whether a household owns a particular appliance. 
-                We then introduce <em>ADF&amp;TransApp</em>, a detection framework leveraging Transformers pre-trained on large volumes of unlabeled data, thus making full use of the extensive consumption datasets available. 
-                Next, we address the localization of appliance activation periods.
-                We propose <em>CamAL</em>, a weakly supervised approach combining convolutional networks and explainability techniques.
-                A key innovation of our solution is its ability to be trained solely on appliance ownership information, significantly reducing the need for annotated data.
-                To make this approach accessible, we developed DeviceScope, an interactive tool that highlights appliance signatures in consumption data, providing clearer insights for both consumers and electricity providers.
-                Finally, to estimate individual appliance consumption, we introduce <em>NILMFormer</em>, a Transformer-based architecture incorporating a normalization mechanism tailored to the NILM problem.
-                This design effectively handles the intrinsic variations in consumption data, addressing the challenge posed by their non-stationary nature.
-                
-                The work conducted in this thesis has led to the large-scale operational deployment of the proposed solutions, demonstrating their relevance for optimized energy management and their active contribution to the energy transition.
+
+            <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                <p class="text-gray-700 text-justify">
+                    The transition to low-carbon energy, reinforced by international agreements, demands greater flexibility in the electric grid to effectively integrate renewable energy sources.
+                    In this context, the widely deployed smart meters provide precise and time-stamped household electricity consumption data, serving as a key enabler for improving grid flexibility.
+                    However, their low temporal resolution (typically one reading every 30 minutes) limits their utility for fine-grained analysis, particularly in extracting detailed information on individual appliance consumption.
+                    This thesis introduces innovative deep learning-based approaches to analyze these time series and address the challenges of appliance detection and energy usage tracking in households.
+                    <br><br>
+                    After establishing the theoretical foundations and reviewing the state of the art in time series analysis and Non-Intrusive Load Monitoring (NILM), this work first focuses on detecting appliance presence from low-frequency aggregated data.
+                    An evaluation of multiple classification techniques highlights the superiority of deep learning-based approaches.
+                    First, we investigate various time series classification methods and show that deep learning significantly outperforms traditional approaches for detecting whether a household owns a particular appliance. 
+                    We then introduce <em>ADF&amp;TransApp</em>, a detection framework leveraging Transformers pre-trained on large volumes of unlabeled data, thus making full use of the extensive consumption datasets available. 
+                    Next, we address the localization of appliance activation periods.
+                    We propose <em>CamAL</em>, a weakly supervised approach combining convolutional networks and explainability techniques.
+                    A key innovation of our solution is its ability to be trained solely on appliance ownership information, significantly reducing the need for annotated data.
+                    To make this approach accessible, we developed DeviceScope, an interactive tool that highlights appliance signatures in consumption data, providing clearer insights for both consumers and electricity providers.
+                    Finally, to estimate individual appliance consumption, we introduce <em>NILMFormer</em>, a Transformer-based architecture incorporating a normalization mechanism tailored to the NILM problem.
+                    This design effectively handles the intrinsic variations in consumption data, addressing the challenge posed by their non-stationary nature.
+                    <br><br>
+                    The work conducted in this thesis has led to the large-scale operational deployment of the proposed solutions, demonstrating their relevance for optimized energy management and their active contribution to the energy transition.
                 </p>
-            </div>
+            </article>
         </section>
 
     </main>

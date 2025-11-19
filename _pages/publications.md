@@ -162,7 +162,7 @@ permalink: /publications/
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">DeviceScope: An Interactive App to Detect and Localize Appliance Patterns in Electricity Consumption Time Series</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Paul Boniol, Philippe Charpentier, Themis Palpanas</p>
-                    <p class="text-gray-600 mt-1 italic">IEEE International Conference on Data Engineering (ICDE), Hong Kong SAR, China, 2025</p>
+                    <p class="text-gray-600 mt-1 italic">IEEE International Conference on Data Engineering (ICDE), Hong Kong SAR, China, May 2025</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2506.05912" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF

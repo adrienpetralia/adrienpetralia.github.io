@@ -68,7 +68,7 @@ permalink: /internships/
             <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         
                 <!-- Text -->
-                <p class="text-lg text-gray-700 md:w-3/4">
+                <p class="text-lg text-gray-700 md:w-3/4 text-justify">
                     My research group at EDF Lab Paris-Saclay (Palaiseau, France) regularly hosts internship projects at the 
                     interface between data mining, machine learning, and energy systems. We work on real-world challenges 
                     using advanced AI methods, and we welcome motivated students who want to contribute to impactful 
@@ -105,7 +105,7 @@ permalink: /internships/
         <h3 class="font-semibold text-gray-900">
             Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
         </h3>
-        <p class="mt-2 text-gray-600 text-sm md:text-base">
+        <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
             Conception et benchmark de méthodes d’IA de pointe (Transformers, apprentissage auto-supervisé, modèles de fondation) pour détecter automatiquement anomalies, dérives et changements de comportements dans les séries temporelles de consommation électrique (e.g., courbes de charge issues des compteurs Linky). Le stage s’appuiera sur des jeux de données réels et contribuera directement à des cas d’usage métier (fraude, pannes, changements d’usage…) ainsi qu’à une thèse de doctorat en cours sur l’explicabilité des modèles multimodaux.
         </p>
         <a
@@ -128,7 +128,7 @@ permalink: /internships/
         <h3 class="font-semibold text-gray-900">
             IA génératives adaptées aux données tabulaires pour la génération de données synthétiques
         </h3>
-        <p class="mt-2 text-gray-600 text-sm md:text-base">
+        <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
         Développement de modèles d’IA générative pour produire des données tabulaires synthétiques réalistes, combinant informations contractuelles, caractéristiques logement/foyer et courbes de consommation. L’objectif est d’évaluer et comparer des modèles récents (diffusion, modèles génératifs tabulaires…) en termes de fidélité, d’utilité et de privacy, afin de fournir des jeux de données exploitables pour la R&D et les équipes métiers dans un cadre RGPD.
         </p>
         <a
@@ -151,7 +151,7 @@ permalink: /internships/
         <h3 class="font-semibold text-gray-900">
             Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires
         </h3>
-        <p class="mt-2 text-gray-600 text-sm md:text-base">
+        <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
             Exploration de modèles de fondation pour analyser les courbes de charge de clients professionnels et leurs données associées. Le stage consiste à détecter usages et équipements, réaliser du clustering de profils et de la classification de comportements à l’aide de modèles avancés pour séries temporelles et données tabulaires, afin d’accompagner les entreprises dans la maîtrise de leur consommation et de leur empreinte carbone.
         </p>
         <a
@@ -174,7 +174,7 @@ permalink: /internships/
         <h3 class="font-semibold text-gray-900">
             Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale
         </h3>
-        <p class="mt-2 text-gray-600 text-sm md:text-base">
+        <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
             Mise en œuvre de méthodes d’inférence causale pour estimer la part d’autoconsommation solaire dans la consommation électrique de clients résidentiels équipés de photovoltaïque. Le stage s’appuie sur des données de consommation fines, météo et tarifaires pour adapter et comparer différentes approches (méthodes quasi-expérimentales, modèles modernes de causalité) dans un cadre dynamique avec variables confondantes.
         </p>
         <a

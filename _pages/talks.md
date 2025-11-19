@@ -72,13 +72,8 @@ permalink: /talks/
                 My PhD work focuses on deep learning for large-scale electricity consumption time series,
                 with applications to smart-meter analytics, Non-Intrusive Load Monitoring (NILM), and
                 consumer-facing energy feedback at EDF.
-                
                 The thesis investigates how modern deep learning models, in particular Transformer-based architectures,
-                can be used to model household electricity consumption at scale. The goal is twofold:
-                (i) learn robust representations of smart-meter data that transfer across downstream tasks
-                (classification, regression, forecasting), and (ii) design models capable of disaggregating
-                aggregated household load into appliance-level signals (NILM), with direct deployment in
-                EDF’s <em>Mon Suivi Conso</em> service.
+                can be used to model household electricity consumption at scale.
             </p>
                     
             <p class="text-center mt-2 text-sm text-gray-500">
@@ -161,7 +156,7 @@ permalink: /talks/
                     Next, we address the localization of appliance activation periods.
                     We propose <em>CamAL</em>, a weakly supervised approach combining convolutional networks and explainability techniques.
                     A key innovation of our solution is its ability to be trained solely on appliance ownership information, significantly reducing the need for annotated data.
-                    To make this approach accessible, we developed DeviceScope, an interactive tool that highlights appliance signatures in consumption data, providing clearer insights for both consumers and electricity providers.
+                    To make this approach accessible, we developed <em>DeviceScope</em>, an interactive tool that highlights appliance signatures in consumption data, providing clearer insights for both consumers and electricity providers.
                     Finally, to estimate individual appliance consumption, we introduce <em>NILMFormer</em>, a Transformer-based architecture incorporating a normalization mechanism tailored to the NILM problem.
                     This design effectively handles the intrinsic variations in consumption data, addressing the challenge posed by their non-stationary nature.
                     <br><br>

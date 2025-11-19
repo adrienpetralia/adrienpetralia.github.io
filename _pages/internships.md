@@ -171,7 +171,7 @@ permalink: /internships/
             <span class="chip">Time Series</span>
             <span class="chip">Electricity Consumption Data</span>
         </div>
-        <h3 class="font-semibold text-gray-900">
+        <h3 class="font-semibold text-gray-900 text-justify">
             Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale
         </h3>
         <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">

@@ -88,6 +88,9 @@ permalink: /publications/
                         <a class="btn" href="https://arxiv.org/pdf/2511.05980" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF
                         </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/BERT2S_TSFMImputation.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
                     </div>
                 </article>
             </div>

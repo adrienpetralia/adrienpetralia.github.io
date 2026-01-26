@@ -62,7 +62,7 @@ permalink: /talks/
         <!-- Page header -->
         <header class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-900">PhD Thesis Overview</h1>
-            <p class="mt-3 text-gray-600">Defended on May 7th, Paris, France.</p>
+            <p class="mt-3 text-gray-600">Defended on May 7th 2025, Paris, France.</p>
         </header>
 
         <!-- Overview / Intro -->

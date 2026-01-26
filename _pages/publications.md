@@ -65,7 +65,7 @@ permalink: /publications/
             <p class="mt-3 text-gray-600">Selected work across journals, conferences, and patents.</p>
         </header>
 
-        <!-- Preprints -->
+        <!-- Preprints 
         <section class="mb-12" aria-labelledby="preprints">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-file-lines text-xl text-blue-600"></i>
@@ -83,7 +83,7 @@ permalink: /publications/
                     <p class="text-gray-700 mt-1">
                         Etienne Le Naour*, Tahar Nabil*, Adrien Petralia, Ghislain Agoua
                     </p>
-                    <p class="text-gray-600 mt-1 italic">Arxiv Preprint - Accepted at NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models (BERT2S).</p>
+                    <p class="text-gray-600 mt-1 italic">Presented at NeurIPS 2025, Workshop on Recent Advances in Time Series Foundation Models (BERT2S).</p>
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2511.05980" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF
@@ -95,6 +95,7 @@ permalink: /publications/
                 </article>
             </div>
         </section>
+        -->
 
         <!-- Journals and Conferences -->
         <section class="mb-12" aria-labelledby="conferences">
@@ -104,6 +105,32 @@ permalink: /publications/
             </div>
 
             <div class="space-y-4">
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2026</span>
+                        <span class="chip">Journal</span>
+                        <span class="chip">TMLR</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">
+                        Are Time-Indexed Foundation Models the Future of Time Series Imputation?
+                    </h3>
+                    <p class="text-gray-700 mt-1">
+                        Etienne Le Naour*, Tahar Nabil*, Adrien Petralia, Ghislain Agoua
+                    </p>
+                    <p class="text-gray-600 mt-1 italic">
+                        Transaction on Machine Learning Research (TMLR), 2026.
+                    </p> 
+                    <p class="text-gray-600 mt-1 italic">Arxiv Preprint - Accepted at NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models (BERT2S).</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://arxiv.org/pdf/2511.05980" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://adrienpetralia.github.io/_posters/BERT2S_TSFMImputation.pdf" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-image"></i> Poster
+                        </a>
+                    </div>
+                </article>
+                
                 <!-- KDD 2025 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">

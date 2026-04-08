@@ -110,7 +110,7 @@ permalink: /internships/
                         <span class="chip">Time Series</span>
                         <span class="chip">Anomaly Detection</span>
                         <span class="chip">Transformer</span>
-                        <span class="status-pill">Sujet pourvu</span>
+                        <span class="status-pill">Filled</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
                         AI for Anomaly and Drift Detection in Electricity Consumption Time Series
@@ -131,7 +131,7 @@ permalink: /internships/
                         <span class="chip">Tabular Data</span>
                         <span class="chip">Generative AI</span>
                         <span class="chip">Diffusion</span>
-                        <span class="status-pill">Sujet pourvu</span>
+                        <span class="status-pill">Filled</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
                         Generative AI for Synthetic Tabular Data Generation in an Energy Use Case
@@ -152,7 +152,7 @@ permalink: /internships/
                         <span class="chip">Time Series</span>
                         <span class="chip">Foundation Model</span>
                         <span class="chip">Scoring</span>
-                        <span class="status-pill">Sujet pourvu</span>
+                        <span class="status-pill">Filled</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
                         Energy Data Analytics using Time Series and Tabular Data Foundation Models 
@@ -173,7 +173,7 @@ permalink: /internships/
                         <span class="chip">Causal Inference</span>
                         <span class="chip">Time Series</span>
                         <span class="chip">Electricity Consumption Data</span>
-                        <span class="status-pill">Sujet pourvu</span>
+                        <span class="status-pill">Filled</span>
                     </div>
                     <h3 class="font-semibold text-gray-900 text-justify">
                         Causal Inference applied to Self-Consumption Solar Estimation in Residential Electricity Demand 

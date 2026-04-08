@@ -86,10 +86,10 @@ permalink: /internships/
                 <i class="fa-regular fa-circle-check text-blue-600 text-lg mt-1" aria-hidden="true"></i>
                 <div>
                     <p class="text-sm md:text-base text-blue-900 font-medium">
-                        The 2026 internship topics are listed below for information.
+                        Unfortunately, all internship topics for 2026 have now been filled.
                     </p>
                     <p class="mt-1 text-sm text-blue-800">
-                        They remain available online as a reference, together with their full PDF descriptions.
+                        The topics and their full PDF descriptions remain available below for reference.
                     </p>
                 </div>
             </div>
@@ -99,7 +99,7 @@ permalink: /internships/
         <section class="mb-12" aria-labelledby="y2026">
             <div class="flex items-center gap-3 mb-4">
                 <i class="fa-solid fa-calendar-days text-xl text-blue-600" aria-hidden="true"></i>
-                <h2 id="y2026" class="text-2xl font-semibold text-gray-800">Internship topics for 2026 (starting from February)</h2>
+                <h2 id="y2026" class="text-2xl font-semibold text-gray-800">2026 Internship topics</h2>
             </div>
 
             <div class="space-y-4">
@@ -113,11 +113,8 @@ permalink: /internships/
                         <span class="status-pill">Sujet pourvu</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
-                        Détection d'anomalies et de dérives dans les consommations énergétiques par méthodes d’IA
+                        AI for Anomaly and Drift Detection in Electricity Consumption Time Series
                     </h3>
-                    <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
-                        Conception et benchmark de méthodes d’IA de pointe (Transformers, apprentissage auto-supervisé, modèles de fondation) pour détecter automatiquement anomalies, dérives et changements de comportements dans les séries temporelles de consommation électrique (e.g., courbes de charge issues des compteurs Linky). Le stage s’appuiera sur des jeux de données réels et contribuera directement à des cas d’usage métier (fraude, pannes, changements d’usage…) ainsi qu’à une thèse de doctorat en cours sur l’explicabilité des modèles multimodaux.
-                    </p>
                     <a
                         href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-DETECTION_ANOMALIES.pdf"
                         class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
@@ -137,11 +134,8 @@ permalink: /internships/
                         <span class="status-pill">Sujet pourvu</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
-                        IA génératives adaptées aux données tabulaires pour la génération de données synthétiques
+                        Generative AI for Synthetic Tabular Data Generation in an Energy Use Case
                     </h3>
-                    <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
-                        Développement de modèles d’IA générative pour produire des données tabulaires synthétiques réalistes, combinant informations contractuelles, caractéristiques logement/foyer et courbes de consommation. L’objectif est d’évaluer et comparer des modèles récents (diffusion, modèles génératifs tabulaires…) en termes de fidélité, d’utilité et de privacy, afin de fournir des jeux de données exploitables pour la R&D et les équipes métiers dans un cadre RGPD.
-                    </p>
                     <a
                         href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-IA_GENERATIVE_TABULAIRE.pdf"
                         class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
@@ -161,11 +155,8 @@ permalink: /internships/
                         <span class="status-pill">Sujet pourvu</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
-                        Exploration des courbes de charge par modèles de fondation pour séries temporelles et données tabulaires
+                        Energy Data Analytics using Time Series and Tabular Data Foundation Models 
                     </h3>
-                    <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
-                        Exploration de modèles de fondation pour analyser les courbes de charge de clients professionnels et leurs données associées. Le stage consiste à détecter usages et équipements, réaliser du clustering de profils et de la classification de comportements à l’aide de modèles avancés pour séries temporelles et données tabulaires, afin d’accompagner les entreprises dans la maîtrise de leur consommation et de leur empreinte carbone.
-                    </p>
                     <a
                         href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-EXPLORATION_COURBE_DE_CHARGE_PRO_PAR_IA.pdf"
                         class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"
@@ -185,11 +176,8 @@ permalink: /internships/
                         <span class="status-pill">Sujet pourvu</span>
                     </div>
                     <h3 class="font-semibold text-gray-900 text-justify">
-                        Estimer la part d’autoconsommation solaire dans la consommation électrique résidentielle à l’aide de méthodes d’inférence causale
+                        Causal Inference applied to Self-Consumption Solar Estimation in Residential Electricity Demand 
                     </h3>
-                    <p class="mt-2 text-gray-600 text-sm text-justify md:text-base">
-                        Mise en œuvre de méthodes d’inférence causale pour estimer la part d’autoconsommation solaire dans la consommation électrique de clients résidentiels équipés de photovoltaïque. Le stage s’appuie sur des données de consommation fines, météo et tarifaires pour adapter et comparer différentes approches (méthodes quasi-expérimentales, modèles modernes de causalité) dans un cadre dynamique avec variables confondantes.
-                    </p>
                     <a
                         href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-INFERENCE_CAUSALE_PV.pdf"
                         class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-700"

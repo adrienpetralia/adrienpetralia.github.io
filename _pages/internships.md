@@ -86,7 +86,7 @@ permalink: /internships/
                 <i class="fa-regular fa-circle-check text-blue-600 text-lg mt-1" aria-hidden="true"></i>
                 <div>
                     <p class="text-sm md:text-base text-blue-900 font-medium">
-                        Unfortunately, all internship topics for 2026 have now been filled.
+                        All internship topics for 2026 have now been filled.
                     </p>
                     <p class="mt-1 text-sm text-blue-800">
                         The topics and their full PDF descriptions remain available below for reference.

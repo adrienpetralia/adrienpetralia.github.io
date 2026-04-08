@@ -76,12 +76,16 @@ permalink: /teaching/
                 </h3>
                 <ul class="mt-3 space-y-2 text-gray-700 list-disc list-inside">
                     <li>
-                        ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) — Datasets & Benchmarks Track
-                        <span class="chip ml-2">2026</span>
+                        International Conference on Very Large DataBases (VLDB) 
+                        <span class="chip ml-2">2027</span>
                     </li>
                     <li>
-                        IEEE International Conference on Big Data (IEEE BigData 2025) — Industrial & Government Track
-                        <span class="chip ml-2">2025</span>
+                        IEEE International Conference on Big Data (IEEE BigData) — Industrial & Government Track
+                        <span class="chip ml-2">2025 & 2026</span>
+                    </li>
+                    <li>
+                        ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) — Datasets & Benchmarks Track
+                        <span class="chip ml-2">2026</span>
                     </li>
                 </ul>
             </div>

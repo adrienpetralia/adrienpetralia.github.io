@@ -113,7 +113,7 @@ permalink: /internships/
                         <span class="status-pill">Filled</span>
                     </div>
                     <h3 class="font-semibold text-gray-900">
-                        AI for Anomaly and Drift Detection in Electricity Consumption Time Series
+                        AI for Anomaly and Drift Detection in Electricity Consumption Time Series Data
                     </h3>
                     <a
                         href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-DETECTION_ANOMALIES.pdf"
@@ -176,7 +176,7 @@ permalink: /internships/
                         <span class="status-pill">Filled</span>
                     </div>
                     <h3 class="font-semibold text-gray-900 text-justify">
-                        Causal Inference applied to Self-Consumption Solar Estimation in Residential Electricity Demand 
+                        Causal Inference for Solar Self-Consumption Estimation in Residential Electricity Demand
                     </h3>
                     <a
                         href="https://adrienpetralia.github.io/_internships/EDF-RD-E7C-Stage-2026-INFERENCE_CAUSALE_PV.pdf"

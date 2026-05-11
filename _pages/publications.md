@@ -306,12 +306,32 @@ permalink: /publications/
             </div>
 
             <div class="space-y-4">
+                <!-- Patent 2026 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2026</span>
+                        <span class="chip">WO</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">Determining the Activation Over Time of a Given Device Within a Set of Devices Based on Collected Data</h3>
+                    <p class="text-gray-700 mt-1">Adrien Petralia, Themis Palpanas, Philippe Charpentier, Claire Lambert</p>
+                    <p class="text-gray-600 mt-1 italic">PCT/EP2026/062782</p>
+                </article>
+                
                 <!-- Patent 2025 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2025</span>
+                        <span class="chip">WO</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">Extracting the Power Consumption of an Individual Device Within a set of Devices Connected to an Electrical Network</h3>
+                    <p class="text-gray-700 mt-1">Adrien Petralia, Themis Palpanas, Philippe Charpentier, Claire Lambert</p>
+                    <p class="text-gray-600 mt-1 italic">PCT/EP2025/076327</p>
+                </article>
+                
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2025</span>
                         <span class="chip">FR</span>
-                        <span class="chip">EU</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">Détermination d'une activation au cours du temps d'un équipement donné au sein d'un ensemble d'équipements à partir de données collectées</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Paul Boniol, Themis Palpanas, Philippe Charpentier</p>
@@ -322,12 +342,21 @@ permalink: /publications/
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2024</span>
-                        <span class="chip">FR</span>
                         <span class="chip">EU</span>
                     </div>
-                    <h3 class="pub-title font-semibold text-gray-900">Extracting the Power Consumption of an Individual Device Within a set of Devices Connected to an Electrical Network</h3>
+                    <h3 class="pub-title font-semibold text-gray-900">Characterisation for Optimising the Power Consumption of a Set of Devices Connected to an Electrical Network</h3>
+                    <p class="text-gray-700 mt-1">Luc Dufour, Pascal Chaussumier, Adrien Petralia, Philippe Charpentier, Themis Palpanas, Justin Capik</p>
+                    <p class="text-gray-600 mt-1 italic">European Patent EP4571461</p>
+                </article>
+                
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2024</span>
+                        <span class="chip">FR</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">Extraction de la consommation électrique d'un équipement individuel au sein d'un ensemble d'équipements connectés à un réseau électrique</h3>
                     <p class="text-gray-700 mt-1">Adrien Petralia, Themis Palpanas, Philippe Charpentier, Claire Lambert</p>
-                    <p class="text-gray-600 mt-1 italic">French Patent FR2410061 - PCT/EP2025/076327</p>
+                    <p class="text-gray-600 mt-1 italic">French Patent FR2410061</p>
                 </article>
 
                 <!-- Patent 2023 -->
@@ -335,11 +364,10 @@ permalink: /publications/
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2023</span>
                         <span class="chip">FR</span>
-                        <span class="chip">EU</span>
                     </div>
-                    <h3 class="pub-title font-semibold text-gray-900">Characterisation for Optimising the Power Consumption of a Set of Devices Connected to an Electrical Network</h3>
+                    <h3 class="pub-title font-semibold text-gray-900">Caractérisation pour l'optimisation de la consommation électrique d'un ensemble d'équipements connectés à un réseau électrique</h3>
                     <p class="text-gray-700 mt-1">Luc Dufour, Pascal Chaussumier, Adrien Petralia, Philippe Charpentier, Themis Palpanas, Justin Capik</p>
-                    <p class="text-gray-600 mt-1 italic">French Patent FR3156961 - European Patent EP4571461</p>
+                    <p class="text-gray-600 mt-1 italic">French Patent FR3156961</p>
                 </article>
             </div>
         </section>

@@ -66,15 +66,38 @@ permalink: /publications/
         </header>
 
         <!-- Preprints -->
-        <!-- <section class="mb-12" aria-labelledby="preprints"> -->
-            <!-- <div class="flex items-center gap-3 mb-4"> -->
-                <!-- <i class="fa-solid fa-file-lines text-xl text-blue-600"></i> -->
-                <!-- <h2 id="preprints" class="text-2xl font-semibold text-gray-800">Preprints</h2> -->
-            <!-- </div> -->
-            <!-- <div class="space-y-4"> -->
-                <!-- Preprints -->
-            <!-- </div> -->
-        <!-- </section> -->
+        <section class="mb-12" aria-labelledby="preprints">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-file-lines text-xl text-blue-600"></i>
+                <h2 id="preprints" class="text-2xl font-semibold text-gray-800">Preprints</h2>
+            </div>
+            <div class="space-y-4">
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2026</span>
+                        <span class="chip">Journal</span>
+                        <span class="chip">TMLR</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">
+                        TS-ICL: A Flexible Time-Indexed Foundation Model for Time Series via In-Context Learning
+                    </h3>
+                    <p class="text-gray-700 mt-1">
+                        Etienne Le Naour*, Tahar Nabil*, Adrien Petralia
+                    </p>
+                    <p class="text-gray-600 mt-1 italic">
+                        arXiv preprint, 2026.
+                    </p> 
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://arxiv.org/pdf/2606.05878" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://github.com/EDF-Lab/ts-icl" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
 
         <!-- Journals and Conferences -->
         <section class="mb-12" aria-labelledby="conferences">

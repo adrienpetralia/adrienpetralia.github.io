@@ -75,8 +75,7 @@ permalink: /publications/
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2026</span>
-                        <span class="chip">Journal</span>
-                        <span class="chip">TMLR</span>
+                        <span class="chip">Preprint</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">
                         TS-ICL: A Flexible Time-Indexed Foundation Model for Time Series via In-Context Learning
@@ -85,7 +84,7 @@ permalink: /publications/
                         Etienne Le Naour*, Tahar Nabil*, Adrien Petralia
                     </p>
                     <p class="text-gray-600 mt-1 italic">
-                        arXiv preprint, 2026.
+                        arXiv preprint, June 2026.
                     </p> 
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2606.05878" target="_blank" rel="noopener">

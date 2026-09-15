@@ -32,6 +32,7 @@ permalink: /teaching/
                     <a href="https://adrienpetralia.github.io/publications/" class="text-gray-700 hover:text-blue-600 transition">Publications</a>
                     <a href="https://adrienpetralia.github.io/thesis/" class="text-gray-700 hover:text-blue-600 transition">Thesis</a>
                     <a href="https://adrienpetralia.github.io/teaching/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Service & Teaching</a>
+                </div> 
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

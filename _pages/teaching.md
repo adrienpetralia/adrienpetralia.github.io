@@ -32,8 +32,6 @@ permalink: /teaching/
                     <a href="https://adrienpetralia.github.io/publications/" class="text-gray-700 hover:text-blue-600 transition">Publications</a>
                     <a href="https://adrienpetralia.github.io/thesis/" class="text-gray-700 hover:text-blue-600 transition">Thesis</a>
                     <a href="https://adrienpetralia.github.io/teaching/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Service & Teaching</a>
-                    <a href="https://adrienpetralia.github.io/internships/" class="text-gray-700 hover:text-blue-600 transition">Internships</a>
-                </div>
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -50,7 +48,6 @@ permalink: /teaching/
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Publications</a>
                 <a href="https://adrienpetralia.github.io/thesis/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Thesis</a>
                 <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Service & Teaching</a>
-                <a href="https://adrienpetralia.github.io/internships/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Internships</a>
             </div>
         </div>
     </nav>
@@ -80,12 +77,12 @@ permalink: /teaching/
                         <span class="chip ml-2">2027</span>
                     </li>
                     <li>
-                        IEEE International Conference on Big Data (IEEE BigData) — Industrial & Government Track
-                        <span class="chip ml-2">2025 & 2026</span>
+                        IEEE International Conference on Data Mining (ICDM) 
+                        <span class="chip ml-2">2026</span>
                     </li>
                     <li>
-                        ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) — Datasets & Benchmarks Track
-                        <span class="chip ml-2">2026</span>
+                        IEEE International Conference on Big Data (IEEE BigData) — Industrial & Government Track
+                        <span class="chip ml-2">2025 & 2026</span>
                     </li>
                 </ul>
             </div>

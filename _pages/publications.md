@@ -36,7 +36,6 @@ permalink: /publications/
                     <a href="https://adrienpetralia.github.io/publications/" class="text-blue-600 border-b-2 border-blue-600 pb-1">Publications</a>
                     <a href="https://adrienpetralia.github.io/thesis/" class="text-gray-700 hover:text-blue-600 transition">Thesis</a>
                     <a href="https://adrienpetralia.github.io/teaching/" class="text-gray-700 hover:text-blue-600 transition">Service & Teaching</a>
-                    <a href="https://adrienpetralia.github.io/internships/" class="text-gray-700 hover:text-blue-600 transition">Internships</a>
                 </div>
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -54,7 +53,6 @@ permalink: /publications/
                 <a href="https://adrienpetralia.github.io/publications/" class="block px-3 py-2 rounded-md text-base font-medium text-blue-600 bg-gray-50">Publications</a>
                 <a href="https://adrienpetralia.github.io/thesis/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Thesis</a>
                 <a href="https://adrienpetralia.github.io/teaching/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Service & Teaching</a>
-                <a href="https://adrienpetralia.github.io/internships/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Internships</a>
             </div>
         </div>
     </nav>
@@ -104,6 +102,26 @@ permalink: /publications/
                 <i class="fa-solid fa-book-open text-xl text-purple-600" aria-hidden="true"></i>
                 <h2 id="publications" class="text-2xl font-semibold text-gray-800">Journals and Conferences</h2>
             </div>
+
+            <!-- ICDM 2026 -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2026</span>
+                        <span class="chip">Conference</span>
+                        <span class="chip">ICDM</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">LoaDiff: Conditional Generation of Electricity Consumption Time Series for Energy Analytics</h3>
+                    <p class="text-gray-700 mt-1">Mariia Baranova, Adrien Petralia, Etienne Le Naour, Nathan Etourneau, Guillaume Hofmann, Themis Palpanas</p>
+                    <p class="text-gray-600 mt-1 italic">IEEE International Conference on Data Mining (ICDM), Shenyang, China, Nov 2026</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://arxiv.org/pdf/2609.11639v1" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                        <a class="btn" href="https://github.com/adrienpetralia/loadiff/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                    </div>
+                </article>
 
             <div class="space-y-4">
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">

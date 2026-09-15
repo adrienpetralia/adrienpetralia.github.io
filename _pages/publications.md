@@ -103,7 +103,8 @@ permalink: /publications/
                 <h2 id="publications" class="text-2xl font-semibold text-gray-800">Journals and Conferences</h2>
             </div>
 
-            <!-- ICDM 2026 -->
+            <div class="space-y-4">
+                <!-- ICDM 2026 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2026</span>
@@ -123,7 +124,6 @@ permalink: /publications/
                     </div>
                 </article>
 
-            <div class="space-y-4">
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2026</span>

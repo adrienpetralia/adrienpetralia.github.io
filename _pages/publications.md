@@ -64,16 +64,44 @@ permalink: /publications/
         </header>
 
         <!-- Preprints -->
-        <section class="mb-12" aria-labelledby="preprints">
+
+        <!-- Journals and Conferences -->
+        <section class="mb-12" aria-labelledby="conferences">
             <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-file-lines text-xl text-blue-600"></i>
-                <h2 id="preprints" class="text-2xl font-semibold text-gray-800">Preprints</h2>
+                <i class="fa-solid fa-book-open text-xl text-purple-600" aria-hidden="true"></i>
+                <h2 id="publications" class="text-2xl font-semibold text-gray-800">Journals and Conferences</h2>
             </div>
+
             <div class="space-y-4">
+                <!-- NeurIPS 2026 (RAMSAD) -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">
                         <span class="chip">2026</span>
-                        <span class="chip">Preprint</span>
+                        <span class="chip">Conference</span>
+                        <span class="chip">NeurIPS</span>
+                    </div>
+                    <h3 class="pub-title font-semibold text-gray-900">
+                        Retrieval Over Training: Similarity search-based Model Selection for Time Series Anomaly Detection
+                    </h3>
+                    <p class="text-gray-700 mt-1">
+                        Christos Panourgias, Roberto Stanzione, Adrien Petralia, Themis Palpanas, Paul Boniol
+                    </p>
+                    <p class="text-gray-600 mt-1 italic">
+                        Advances in Neural Information Processing Systems (NeurIPS), 2026.
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <a class="btn" href="https://arxiv.org/pdf/2610.20243" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- NeurIPS 2026 (TS-ICL) -->
+                <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
+                    <div class="flex flex-wrap items-center gap-2 mb-2">
+                        <span class="chip">2026</span>
+                        <span class="chip">Conference</span>
+                        <span class="chip">NeurIPS</span>
                     </div>
                     <h3 class="pub-title font-semibold text-gray-900">
                         TS-ICL: A Flexible Time-Indexed Foundation Model for Time Series via In-Context Learning
@@ -82,7 +110,7 @@ permalink: /publications/
                         Etienne Le Naour*, Tahar Nabil*, Adrien Petralia
                     </p>
                     <p class="text-gray-600 mt-1 italic">
-                        arXiv preprint, June 2026.
+                        Advances in Neural Information Processing Systems (NeurIPS), 2026.
                     </p> 
                     <div class="mt-3 flex flex-wrap gap-2">
                         <a class="btn" href="https://arxiv.org/pdf/2606.05878" target="_blank" rel="noopener">
@@ -93,17 +121,7 @@ permalink: /publications/
                         </a>
                     </div>
                 </article>
-            </div>
-        </section>
-
-        <!-- Journals and Conferences -->
-        <section class="mb-12" aria-labelledby="conferences">
-            <div class="flex items-center gap-3 mb-4">
-                <i class="fa-solid fa-book-open text-xl text-purple-600" aria-hidden="true"></i>
-                <h2 id="publications" class="text-2xl font-semibold text-gray-800">Journals and Conferences</h2>
-            </div>
-
-            <div class="space-y-4">
+            
                 <!-- ICDM 2026 -->
                 <article class="bg-white rounded-2xl shadow-sm p-6 hover-scale">
                     <div class="flex flex-wrap items-center gap-2 mb-2">

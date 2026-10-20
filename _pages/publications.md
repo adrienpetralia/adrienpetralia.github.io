@@ -93,6 +93,9 @@ permalink: /publications/
                         <a class="btn" href="https://arxiv.org/pdf/2610.20243" target="_blank" rel="noopener">
                             <i class="fa-solid fa-file-pdf"></i> PDF
                         </a>
+                        <a class="btn" href="https://github.com/Hendrix8/RAMSAD" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> Code 
+                        </a>
                     </div>
                 </article>
                 
